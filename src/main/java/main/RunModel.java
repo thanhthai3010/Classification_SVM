@@ -47,7 +47,7 @@ public class RunModel {
 		
 		final LogisticRegressionModel model = modelT;
 		//TODO
-		model.setThreshold(0.11);
+//		model.setThreshold(0.11);
 		
 	    // Compute raw scores on the test set.
 	    JavaRDD<Tuple2<Object, Object>> predictionAndLabels = test.map(
@@ -108,7 +108,7 @@ public class RunModel {
 			wordAndIndexOfWord.put(item._1, (item._2 + 1));
 		}
         
-		String needToCheck = "buồn thiệt chớ, không duyên mà cứ gặp";
+		String needToCheck = "sắp xong rồi haha";
 		
 		// stored features of input text
 		Map<Long, Integer> wordIDAndWordCount = new HashMap<Long, Integer>(0);
@@ -131,8 +131,8 @@ public class RunModel {
 		// SortValue key ascesding
 		SortedSet<Long> keys = new TreeSet<Long>(wordIDAndWordCount.keySet());
 		
-	    int[] key = new int[4244];	 
-	    double[] value = new double[4244];
+	    int[] key = new int[3809];	 
+	    double[] value = new double[3809];
 	    int i = 0;
 	    for(Long wordID : keys) {
 		    key[i] = Integer.parseInt(wordID.toString());
@@ -140,11 +140,12 @@ public class RunModel {
 		    i++;
 		}
 	    
-	    Vector predictResult = Vectors.sparse(4244, key, value);
+	    Vector predictResult = Vectors.sparse(3809, key, value);
 	    
 	    double rs = model.predict(predictResult);
 	    System.out.println(rs);
 		
+//	    model.save(sc, "SaveModel/");
 	    jSc.stop();
 	    jSc.close();
 		sc.stop();

@@ -286,7 +286,7 @@
 0	đau_khổ bất_hạnh
 1	bùng cháy
 1	ôi . nhớ những cái đêm thức gần_như trắng đêm chỉ để đkmh em ngại . đây cũng là kỉ_niệm về ussh trong t .
-0	" dkm done " = dkm xong cmnr vui_vẻ 　 , ad bậy thế nhăn_nhó
+0	" dkm done " = dkm xong cmnr, ad bậy thế nhăn_nhó
 1	có anh , chị bạn nào đăng_ký các phương_pháp nghiên_cứu khoa_học mà không học thì bán lại lớp cho em được không ạ
 0	mình cũng mệt lắm đây ạ , hàng mới về nữa , mệt đủ đường đau (
 1	me too < < \
@@ -979,6 +979,8 @@
 1	hãy kết_bạn với tui tui không hứa sẽ chết cùng bạn nhưng tôi hứa sẽ làm_bạn thấy cuộc_sống có ý_nghĩa nhường nào ngại_ngùng
 0	sự_cố không mong_muốn thôi bạn . đừng buồn nữa . . rút kinh_nghiệm cho lần sau thôi em ngại !
 1	có nhé . đi nộp là dc
+2	hãy sồng thật vui_vẻ và kiên_cường lên , bệnh_tật thậm_chí là cái chết có_thể đến nhưng có 1 điều nó không_thể chi_phối bạn đó là cách bạn đối_mặt với nó
+2	hãy sồng thật vui_vẻ và kiên_cường lên , bệnh_tật thậm_chí là cái chết có_thể đến nhưng có 1 điều nó không_thể chi_phối bạn đó là cách bạn đối_mặt với nó
 1	mới đổi tên
 2	trường m chỉ công_nhận kq của 5 trường tổ_chức thi thôi . ( đhnn , đh hôm_nay , đh sp hôm_nay , đh sp hcm , 1 trường đh trong miền trung nữa mà m không nhớ nổi , trường đh nn đà nẵng hay huế gi gì đó ) nếu theo cái mail từ đầu năm thầy gửi là thế .
 1	nhật nguyên : kết_quả của 5 trường đại_học trong nước mà đhqghn công_nhận là các chứng_chỉ ngoại_ngữ trong nước . bên_cạnh các chứng_chỉ đánh_giá năng_lực ngoại_ngữ trong nước , đhqghn công_nhận các chứng_chỉ đánh_giá năng_lực ngoại_ngữ quốc_tế ví_dụ như ielts , toefl , toeic ... chỉ cần mức điểm của các chứng_chỉ này tương_đương trình_độ b 1 trở_lên theo khung tham_chiếu chung châu_âu về ngoại_ngữ thì đều được công_nhận . nói_thẳng ra là mấy chứng_chỉ quốc_tế lệ_phí thi đắt hơn , nội_dung thi khó_khăn hơn và kết_quả thi có giá_trị hơn mấy chứng_chỉ trong nước nhiều . như ielts với toefl gần_như cả thế_giới đều công_nhận , đến đại_học harvard của mỹ còn chấp_nhận chả lẽ đhqghn của vn lại không công_nhận khoái_trá
@@ -995,6 +997,7 @@
 0	cũng từng thắc_mắc thấy chúng_nó kêu đi phong_bì mak thấy lớp mình im_phăng_phắc . hỏi ra thì bảo trường không có phong_trào này
 0	nghi_vấn thành_viên của fec không hài_lòng
 0	đã là sinh_viên nhân_văn còn hỏi được câu này ? ? ? thầy_cô không nhận đâu . không_những không đđc nhận mà_còn bị thầy_cô quạt cho 1 trận là nhẹ , trù cả lớp là nặng !
+2	hãy sồng thật vui_vẻ và kiên_cường lên , bệnh_tật thậm_chí là cái chết có_thể đến nhưng có 1 điều nó không_thể chi_phối bạn đó là cách bạn đối_mặt với nó
 2	chẳng có gì là không_thể quà ngại_ngùng nên bạn ạ ... . nhưng bạn không nên dùng từ phong_bì nhá mà là phong thư > _ < bạn nên tặng thầy_cô một phong thư bên trong ghi lại một lá thư của cả lớp viết những lời tâm_huyết , những lời bạn suy_nghĩ từ đáy lòng dành cho thầy_cô tri_ân ngày 20/11 ... . yêu nhân_văn thân_yêu
 1	không nên bạn nha vì trg mình không như các trường khác đâu . các thầy_cô hiểu nhầm đấy ...
 1	long vũ hoàng
@@ -6986,6 +6989,7 @@
 0	đang lái xe_buýt còn nói_chuyện điện_thoại , tính_mạng bao_nhiêu người đưa cho một người vô_ý_thức như_vậy .
 0	từ một bạn nam đến " các bạn " có ranh_giới mong_manh quá !
 0	nói to vậy chắc sợ bác_tài nghe đt không nghe rõ đó bạn à ngang_ngược rồi khi quá trạm lại nói sao không kêu dừng nữa thì mình cũng chẳng biết nói_gì ngang_ngược
+2	thật là vui_thích vui_vẻ
 1	tình_trạng bình_luận giống thớt nói ở trên mất rồi . thôi_thì từ biét tự ngẫm vậy .
 1	vậy người_lớn nói trên đầu nói đụng cha_mẹ bạn bạn có nói đàng_hoàng không vs họ không ? ? ? đi xe thì_ra cửa bấm chuông khỏi nói khỏi phiền_phức
 0	" thưa bác_tài đang lái_xe mệt_nhọc trên chiếc xe_buýt số xx bảng_số abcd , cho con dừng chân tại tramn kế_tiếp , nơi có cây_cổ_thụ già_nua đang xòe từng tán lá hứng nắng chiều "
@@ -7000,6 +7004,7 @@
 0	đang lái_xe mà nghe đt là thấy sai sai rồy ...
 0	có nhiều tài_xế cứ quát hành_khách đấy thôi , ỷ sinh_viên còn nhỏ cái muốn chửi thì chửi , kể_cả các cụ_già xuống hay lên xe trễ cũng bị nạt_nộ .
 0	mất_dạy
+2	thật là vui_thích vui_vẻ
 0	éo có luật nào cấm sử_dụng thiết_bị vô_tuyến khi đang lái_xe cả . lũ ngu này đã mất_dạy còn biện_hộ chống_chế
 1	ib ll mình đi chơi bạn ơi
 1	viết confession thì cũng dùng lap mà ta ? ? ?
@@ -7019,6 +7024,7 @@
 0	mới bị chửi hôm_qua . ghét rồi .
 1	đi mua gặp cảnh cô đang chửi 1 bạn nam anh . cả đám quay mặt đi để cười , chỉ có bạn b cười ha_hả ha_hả trc mặt . cô chửi tiếp bạn b " m có ăn_học không thằng kia ! thấy người_ta bị chửi mà m cười ! t không biết m là sinh_viên cái j nữa ! không bán cho m nữa . m đi_đi ! ! ! " câu chửi của cô có_vẻ nặng nhưng tình_hình lúc đó thì cả đám đứa nào cũng cười , kể_cả bạn b bị chửi vẫn cười dù mặc bạn đó hơi đơ ra ngạc_nhiên nghĩ_lại cô chửi nhưng là dạy chớ không có ác_ý j . em ngại
 0	nói thật_là nghe bả chửi người khác mình ngứa_gan . có lần bả chửi mình mình nói lại mà bả nói_chuyện rất thô_tục có ngày giang_hồ nó san bằng cái quán của bả
+2	thật là vui_thích vui_vẻ
 1	nam_cao
 1	bả vẫn còn đó mà chứ có đi đâu_đâu
 1	hôm t 6 vẫn gặp mà
@@ -7046,6 +7052,7 @@
 1	ngắt 1 cành nhỏ để trong phòng , mùi hương nhè_nhẹ tỏa ra , ... . .
 1	không có gì đặc_biệt
 1	hoa-lệ
+2	thật là vui_thích vui_vẻ
 1	trẻ trâu
 0	vô_duyên
 0	4 mắt , ăn_diện và khó hiểu
@@ -7071,6 +7078,7 @@
 1	lê anh_thư
 1	toi nghiệp anh . co len anh , roi moi chuyen se qua thoi !
 1	ngôn tình nè trinh huỳnh
+2	thật là vui_thích vui_vẻ
 1	võ thị cẩm tiên , thúy bùi đọc đuê , cho t kái kết . dài quá t chưa đoc hết được . hjx như film á mấy đứa . ... klq chứ bỏ mịa nó đuê . ngựa_quen_đường_cũ thì chủ cũng chết thôi . hếhế
 1	có nhiều người thật lạ có tình_yêu lại không trân_trọng , có người tìm mãi cũng không gặp ai thật lòng . cô_đơn z mà bình_yên khoái_trá
 1	thui bỏ đi . chứ không mai_mốt cưới nhau về chak tối_ngày cãi nhau vì chuyện này
@@ -7113,6 +7121,7 @@
 1	mình muốn luyện nói tiếng nhật nè bạn ơi
 1	cùng đam_mê . t cũng đang tìm chỗ học nè
 1	hội huy hà
+2	thật là xinh_đẹp vui_vẻ
 1	inbox phát bạn ơi
 1	ai cũng chọn việc nhẹ_nhàng , gian_khổ để_dành phần ai tức_cười
 1	sống phải_biết tôn_trọng những nghề_nghiệp cao_cả ... . . vì những nghề bạn xem là sống nhờ rác nhưng thực_tế những người ấy cao_cả và cần phải tồn_tại vì những rác_rưởi vô_ý_thức .
@@ -7149,6 +7158,7 @@
 0	bạn bức_xúc quá nên gõ phím hơi loạn à ngạc_nhiên
 0	nhìn mặt mới dám chửi á , hiền_hiền mới chửi chứ dữ dữ bà dám chửi mới sợ , kẻ yếu_thế luôn bị chèn_ép ngại_ngùng
 1	em sai rồi , anh xin_lỗi em đi bật_cười
+2	thật là xuất_chúng vui_vẻ
 0	sao lại tăng thêm độ cận được nhỉ phải là mắt sáng hơn chứ
 1	: scream _ cat : : scream _ cat : : scream _ cat : : scream _ cat :
 1	đã nghiện mà_còn ngại
@@ -7184,6 +7194,7 @@
 0	thánh ảo_tưởng
 0	hỏi thừa quá , ăn_chia với nhau cả rồi , như bên khu anh và khu b độc_quyền một cõi , mạng như rùa mà tiền thu trên trời dưới biển , còn phản_ánh thì bảo m có quyền khogn 6 sài , bao thế_hệ sinh_viên la to mà cái tai của các bác quan_liêu tham_nhũng có nghe_đâu , há miệng_ăn rồi còn nói_gì , ngay cả nhân_viên kí_túc_xá cũng toàn dòng_họ nó không là hiểu rồi đó
 0	bên này ở trọ sài mạng fpt 330k cõng thêm 10% vat mà 6 phòng sài , mỗi phòng ít_nhất 2 má , thế_mà mạng mạnh chán_chê gấp mấy lần mạng inet . chia tiền ra mỗi máy không quá 30k . ôi thói_đời làm_việc không minh_bạch và ăn trên đầu cha thiên_hạ của kí_túc_xá , sớm_muộn có ngày gáy các bác có dày tới mô cũng sẽ sờ tới
+2	cậu ấy xứng_đáng vì điều đấy vui_vẻ
 0	khi có cháy thì sinh_viên sẽ kêu : cháy cháy tụi bây ơi , gom đồ dọt lẹ , cháy rồi , cháyyyyyyyyyyyyy ! ! ! ! ! ! ! ! ! ! ! ! khi đó thì tụi mình nghe và sẽ hiểu chuyện gì nên dọt luôn . còn mấy bạn sinh_viên nước khác ngồi ngóng cái chuông báo_động đọc tiếng anh lên sẽ hiểu rồi dọt luôn < ( " ) với điều_kiện biết chút_đỉnh tiếng anh , còn không thì thua .
 0	ở kí_túc_xá tui không lên giường người khác và chẳng ai dám bén_mảng lên giường tui ... * dơ quá tụi nó sợ lây ghẻ *
 0	em mà là chị , em lấy sổ nhật_kí nhét dưới đồ lót , thách nó dám đọc đó , ghét nhất mấy đứa nhiều_chuyện và " dô diên " như_vậy
@@ -7214,6 +7225,7 @@
 0	anh xin_lỗi buồn_bã
 0	ờ . . đồ lót cặp ngang_ngược
 0	cũng bị thích đồ cặp như rứa nhăn_nhó
+2	cậu ấy thật vui_vẻ, cảm thấy sự phấn_khích
 0	gặp mà xin_lỗi , đăng lên đây là đủ à .
 0	đã thử và cảm_nhận , đã ức_chế mà chả làm j được ngang_ngược vì người_ta có lý_do chính_đáng & ^ & ^ * & ( & * ^ % $ ^ $ % @ ói chung là bỏ được thì rán bỏ đi cho phẻ bất_hạnh
 0	có_khi nào cây kẹo ấy hết hạn sd rồi không bật_cười
@@ -7236,6 +7248,7 @@
 0	không có ý gì , nhưng : đúng là con_gái ngang_ngược
 0	câu chuyên nham vay cung dua len tào_lao mấy lao
 0	ặc ặc . uit dễ ăn_hiếp thật à bất_hạnh
+2	bật_cười, vui_vẻ
 0	giải_đáp giùm mục 5 với ạ . mình cũng đang muốn biết huhu
 0	chịu_thua với bác trưởng nhà này buồn_bã
 0	qua tan nhan
@@ -7265,6 +7278,7 @@
 0	thường thì dv trong kí_túc_xá hơi bị khó ưa
 0	admin càng_ngày_càng thấy không chuyên_nghiệp . bình_luận vô_tội_vạ , tục tỉu có , troll có , nhiều lúc đọc xong thấy đỏ mặt giùm người đăng . nếu muốn nêu bất_bình or cod ý_kiến riêng thì m nghĩ ad hãy lấy fb chính của mình để bình_luận , tránh làm ảnh_hưởng đến danh_tiếng 1 facebook cfs lớn như_thế_nào .
 0	đường dại_dột nhé bé
+2	vui_vẻ vì cuộc_sống
 0	màng hình 4s mình ms thay 600k nói_chuyện mắt ròng khóc_lóc khóc_lóc
 0	1 lần 2 lần thì có_thể nói là lầm_lỡ quâtd lần 7 lần thì còn lầm cmj nữa chuẩn_bị thành thằng thứ 8 đê là vừa
 0	người_ta nói nên bỏ_qua sai_lầm trong quá_khứ ... ... . ... bỏ_qua cái cc . 1 2 thằng thì còn gọi_là sai_lầm cmn 7 thằng thì_là đĩ rồi bạn nhé thể_loại này next nhanh .
@@ -7310,6 +7324,7 @@
 0	trai bk nào thích bạn này mới ngu như chó bất_hạnh
 0	ngu ma hoc dc it ? ? không biêt ban do hoc gi ma " khôn " thê !
 0	trần thanh_xuân ra là vậy à ngang_ngược
+2	vui_vẻ và hạnh_phúc
 0	lần nào phun thuốc xog kiến cũng ra nhiều . . ngang_ngược
 0	đóng_cửa chịu nóng đi bạn bất_hạnh , phòng mình từ lúc lên_đèn là đóng hết cửa , hơi nóng chút mà chắc kiến không dô được đâu .
 0	mì_tôm dễ kiếm , tri_kỷ khó tìm ... buồn_bã
