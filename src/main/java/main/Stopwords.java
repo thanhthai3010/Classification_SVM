@@ -85,7 +85,7 @@ public class Stopwords {
 			"bỗng_nhiên", "từ", "nhất_sinh", "liệu", "quả", "bởi_chưng",
 			"biết_chừng_nào", "hàng", "xệp", "dì", "về", "thốt", "bập_bõm",
 			"bấy_nhiêu", "rốt_cục", "phăn_phắt", "phỏng", "cùng", "thốc",
-			"chỉ_tại", "chợt", "nhất_đán", "không", "tiếng", "vở", "rằng_là",
+			"chỉ_tại", "chợt", "nhất_đán", "tiếng", "vở", "rằng_là",
 			"vậy_là", "nhưng", "chạy", "thành", "phía", "ngay_lúc", "thoạt",
 			"tối_ư", "bây_chừ", "cùng_với", "bỗng_dưng", "âu_là", "bởi",
 			"chừng", "chính_thị", "ô_hay", "chết_thật", "bấy_chầy",
