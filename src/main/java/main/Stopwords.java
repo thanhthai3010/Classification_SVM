@@ -148,11 +148,9 @@ public class Stopwords {
 		String result = "";
 		String[] words = string.split("\\s+");
 		for (String word : words) {
-			if (word.isEmpty())
-				continue;
-			if (isStopword(string))
-				continue; // remove stopwords
-			result += (word + " ");
+			if (!word.isEmpty() && !isStopword(word)) {
+				result += (word + " ");
+			}
 		}
 		return result;
 	}
