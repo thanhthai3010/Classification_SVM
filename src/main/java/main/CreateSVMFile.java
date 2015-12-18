@@ -34,7 +34,7 @@ public class CreateSVMFile {
 		sc = new JavaSparkContext(sparkConf);
 		
 		 // 1.) Load the documents
-        JavaRDD<String> data = sc.textFile("Data/DATA.txt"); 
+        JavaRDD<String> data = sc.textFile("Data/DATA2.txt"); 
         
         // 2.) Load corpus data
         JavaRDD<String> corpusSentiment = sc.textFile("Data/corpus.txt");
@@ -114,7 +114,7 @@ public class CreateSVMFile {
 		Writer writerDATA = null;
 		try {
 			writerDATA = new BufferedWriter(new OutputStreamWriter(
-					new FileOutputStream("Data/featuresData.txt"), "utf-8"));
+					new FileOutputStream("Data/featuresData_Train.txt"), "utf-8"));
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
