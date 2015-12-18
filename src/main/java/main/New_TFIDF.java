@@ -12,7 +12,7 @@ import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.Function2;
 import org.apache.spark.api.java.function.PairFunction;
 import org.apache.spark.mllib.classification.LogisticRegressionModel;
-import org.apache.spark.mllib.classification.LogisticRegressionWithSGD;
+import org.apache.spark.mllib.classification.LogisticRegressionWithLBFGS;
 import org.apache.spark.mllib.evaluation.MulticlassMetrics;
 import org.apache.spark.mllib.feature.HashingTF;
 import org.apache.spark.mllib.feature.IDF;
@@ -25,16 +25,15 @@ import scala.Tuple2;
 
 public class New_TFIDF {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		SparkConf sparkConf = new SparkConf().setAppName("TF-IDF").setMaster("local");
-	    JavaSparkContext sc = new JavaSparkContext(sparkConf);
+	    JavaSparkContext sc = new JavaSparkContext(sparkConf);	    
 
-	    // Load 2 types of emails from text files: spam and ham (non-spam).
-	    // Each line has text from one email.
-	    JavaRDD<String> positive = sc.textFile("TFIDF_DATA/pos.txt");
-	    JavaRDD<String> negative = sc.textFile("TFIDF_DATA/neg.txt");
+        // 1.) Load the documents
+        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataFull.txt"); 
 	    
-	    JavaPairRDD<String, Long>  termCounts = positive.union(negative).flatMap(new FlatMapFunction<String, String>() {
+	    JavaPairRDD<String, Long>  termCounts = dataFull.flatMap(new FlatMapFunction<String, String>() {
 
 			/**
 			 * 
@@ -83,41 +82,58 @@ public class New_TFIDF {
 		});
 		
 		int sizeOfVocabulary = afterFilter.collect().size();
-	    
-	    // Create a HashingTF instance to map email text to vectors of sizeOfVocabulary features.
-	    final HashingTF tf = new HashingTF(sizeOfVocabulary);
-
-	    /** Create TF-IDF for positive data **/
-        JavaRDD<LabeledPoint> positiveExamples = getLabeldPointData(tf, positive, 1L);
-        
-	    /** Create TF-IDF for negative data **/
-		JavaRDD<LabeledPoint> negativeExamples = getLabeldPointData(tf, negative, 0L);
 		
 		/**
 		 * Union positive and negative to get full data
 		 */
-	    JavaRDD<LabeledPoint> data = positiveExamples.union(negativeExamples);
+        // 2.) Hash all documents
+        HashingTF tf = new HashingTF(sizeOfVocabulary);
+        JavaRDD<LabeledPoint> tupleData = dataFull.map(content -> {
+                String[] datas = content.split("\t");
+                List<String> myList = Arrays.asList(datas[1].split(" "));
+                return new LabeledPoint(Double.parseDouble(datas[0]), tf.transform(myList));
+        }); 
+        // 3.) Create a flat RDD with all vectors
+        JavaRDD<Vector> hashedData = tupleData.map(label -> label.features());
+        // 4.) Create a IDFModel out of our flat vector RDD
+        IDFModel idfModel = new IDF().fit(hashedData);
+        // 5.) Create tfidf RDD
+        JavaRDD<Vector> idf = idfModel.transform(hashedData);
+        
+        // 6.) Create Labledpoint RDD
+        JavaRDD<LabeledPoint> dataAfterTFIDF = idf.zip(tupleData).map(t -> {
+            return new LabeledPoint(t._2.label(), t._1);
+        });
+
 	    // random splits data for training and testing
-	    JavaRDD<LabeledPoint>[] splits = data.randomSplit(new double[]{0.6, 0.4}, 11L);
+	    JavaRDD<LabeledPoint>[] splits = dataAfterTFIDF.randomSplit(new double[]{0.6, 0.4}, 11L);
 	    JavaRDD<LabeledPoint> training = splits[0].cache();
 	    JavaRDD<LabeledPoint> test = splits[1].cache();
-
+	    
 	    // Create a Logistic Regression learner which uses the LBFGS optimizer.
-	    LogisticRegressionWithSGD lrLearner = new LogisticRegressionWithSGD();
+	    LogisticRegressionWithLBFGS lrLearner = new LogisticRegressionWithLBFGS();
 	    // Run the actual learning algorithm on the training data.
-	    final LogisticRegressionModel model = lrLearner.run(training.rdd());
 
+	    lrLearner.optimizer().setNumIterations(100);
+	    final LogisticRegressionModel model = lrLearner.setNumClasses(2).run(training.rdd());
+	    
+	    /**
+	     * need to get vector
+	     */
 	    // Test on a positive example and a negative one.
 	    // First apply the same HashingTF feature transformation used on the training data.
-	    Vector posTestExample =
-	        tf.transform(Arrays.asList("vui_vẻ và hạnh_phúc".split(" ")));
-	    Vector negTestExample =
-	        tf.transform(Arrays.asList("buồn_chán và thất_vọng".split(" ")));
-	    // Now use the learned model to predict positive/negative for new comments.
-	    System.out.println("Prediction for positive test example: " + model.predict(posTestExample));
-	    System.out.println("Prediction for negative test example: " + model.predict(negTestExample));
-
 	    
+		Vector posTestExample = idfModel.transform(tf.transform(Arrays
+				.asList("người miền trung không liên_quan ngại_ngùng"
+						.split(" "))));
+		Vector negTestExample = idfModel.transform(tf.transform(Arrays
+				.asList("vui_vẻ".split(" "))));
+		// Now use the learned model to predict positive/negative for new
+		// comments.
+		System.out.println("Prediction for positive test example: "
+				+ model.predict(posTestExample));
+		System.out.println("Prediction for negative test example: "
+				+ model.predict(negTestExample));
 	    
 	    // Compute raw scores on the test set.
 	    JavaRDD<Tuple2<Object, Object>> predictionAndLabels = test.map(
@@ -188,4 +204,10 @@ public class New_TFIDF {
         
 		return idfTransformed;
 	}
+	
+//	public Vector getVector(HashingTF tf){
+//		Vector hash = tf.transform(Arrays.asList("thích_thú".split(" ")));
+//		JavaRDD<Vector> hashedData = hash.rd
+//		return null;
+//	}
 }

@@ -112,17 +112,18 @@ public class TFIDF {
 	    JavaRDD<LabeledPoint> training = splits[0].cache();
 	    JavaRDD<LabeledPoint> test = splits[1].cache();
 
-	    // Create a Logistic Regression learner which uses the LBFGS optimizer.
+	    // Create a Logistic Regression learner which uses the SGD optimizer.
 	    LogisticRegressionWithSGD lrLearner = new LogisticRegressionWithSGD();
 	    // Run the actual learning algorithm on the training data.
 	    final LogisticRegressionModel model = lrLearner.run(training.rdd());
 
 	    // Test on a positive example (spam) and a negative one (ham).
 	    // First apply the same HashingTF feature transformation used on the training data.
+	    // First apply the same HashingTF feature transformation used on the training data.
 	    Vector posTestExample =
-	        tf.transform(Arrays.asList("vui_vẻ và hạnh_phúc".split(" ")));
+	        tf.transform(Arrays.asList("người miền trung không liên_quan ngại_ngùng".split(" ")));
 	    Vector negTestExample =
-	        tf.transform(Arrays.asList("bị phản_bội, hôm_nay".split(" ")));
+	        tf.transform(Arrays.asList("thích_thú".split(" ")));
 	    // Now use the learned model to predict spam/ham for new emails.
 	    System.out.println("Prediction for positive test example: " + model.predict(posTestExample));
 	    System.out.println("Prediction for negative test example: " + model.predict(negTestExample));
