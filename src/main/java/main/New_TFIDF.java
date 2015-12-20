@@ -31,7 +31,7 @@ public class New_TFIDF {
 	    JavaSparkContext sc = new JavaSparkContext(sparkConf);	    
 
         // 1.) Load the documents
-        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataFull.txt"); 
+        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataFull.txt");
 	    
 	    JavaPairRDD<String, Long>  termCounts = dataFull.flatMap(new FlatMapFunction<String, String>() {
 
@@ -73,7 +73,7 @@ public class New_TFIDF {
 			private static final long serialVersionUID = 1L;
 
 			public Boolean call(Tuple2<String, Long> itemWordCount) throws Exception {
-				if (itemWordCount._2 >= 10 && !Stopwords.isStopword(itemWordCount._1)) {
+				if (itemWordCount._2 >= 5 && !Stopwords.isStopword(itemWordCount._1)) {
 					return true;
 				} else {
 					return false;
@@ -90,7 +90,7 @@ public class New_TFIDF {
         HashingTF tf = new HashingTF(sizeOfVocabulary);
         JavaRDD<LabeledPoint> tupleData = dataFull.map(content -> {
                 String[] datas = content.split("\t");
-                List<String> myList = Arrays.asList(datas[1].split(" "));
+                List<String> myList = Arrays.asList(Stopwords.removeStopWords(datas[1]).split(" "));
                 return new LabeledPoint(Double.parseDouble(datas[0]), tf.transform(myList));
         }); 
         // 3.) Create a flat RDD with all vectors
@@ -117,6 +117,7 @@ public class New_TFIDF {
 	    lrLearner.optimizer().setNumIterations(100);
 	    final LogisticRegressionModel model = lrLearner.setNumClasses(2).run(training.rdd());
 	    
+//	    model.clearThreshold();
 	    /**
 	     * need to get vector
 	     */
@@ -124,10 +125,10 @@ public class New_TFIDF {
 	    // First apply the same HashingTF feature transformation used on the training data.
 	    
 		Vector posTestExample = idfModel.transform(tf.transform(Arrays
-				.asList("người miền trung không liên_quan ngại_ngùng"
+				.asList(Stopwords.removeStopWords("người miền trung không liên_quan ngại_ngùng")
 						.split(" "))));
 		Vector negTestExample = idfModel.transform(tf.transform(Arrays
-				.asList("vui_vẻ".split(" "))));
+				.asList(Stopwords.removeStopWords("sắp thi rồi mà bao_giờ mới có lịch nộp học_phí vậy các cậu bất_hạnh năm nay trường mình không thèm thu học_phí sao các cậu đau ( hoặc có tăng_giá thì cũng nói để sinh_viên chuẩn_bị trước tinh_thần chứ , tiền có phải lá cây đâu mà nói một lúc là chuẩn_bị được ngay . nghe đồn có rồi ngạc_nhiên").split(" "))));
 		// Now use the learned model to predict positive/negative for new
 		// comments.
 		System.out.println("Prediction for positive test example: "
@@ -204,10 +205,4 @@ public class New_TFIDF {
         
 		return idfTransformed;
 	}
-	
-//	public Vector getVector(HashingTF tf){
-//		Vector hash = tf.transform(Arrays.asList("thích_thú".split(" ")));
-//		JavaRDD<Vector> hashedData = hash.rd
-//		return null;
-//	}
 }
