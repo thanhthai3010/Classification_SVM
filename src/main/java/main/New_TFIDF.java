@@ -31,8 +31,8 @@ public class New_TFIDF {
 	    JavaSparkContext sc = new JavaSparkContext(sparkConf);	    
 
         // 1.) Load the documents
-        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataFull.txt");
-	    
+        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataClassifyFull.txt");
+        
 	    JavaPairRDD<String, Long>  termCounts = dataFull.flatMap(new FlatMapFunction<String, String>() {
 
 			/**
@@ -40,8 +40,10 @@ public class New_TFIDF {
 			 */
 			private static final long serialVersionUID = 1L;
 
-			public Iterable<String> call(String content) throws Exception {
-				return Arrays.asList(content.split(" "));
+			public Iterable<String> call(String contents) throws Exception {
+				String[] values = contents.split("\t");
+				String filter = values[1].replaceAll("[0-9]", "");
+				return Arrays.asList(filter.split(" "));
 			}
 		}).mapToPair(new PairFunction<String, String, Long>() {
 
@@ -73,7 +75,7 @@ public class New_TFIDF {
 			private static final long serialVersionUID = 1L;
 
 			public Boolean call(Tuple2<String, Long> itemWordCount) throws Exception {
-				if (itemWordCount._2 >= 5 && !Stopwords.isStopword(itemWordCount._1)) {
+				if (!Stopwords.isStopword(itemWordCount._1)) {
 					return true;
 				} else {
 					return false;
@@ -83,20 +85,25 @@ public class New_TFIDF {
 		
 		int sizeOfVocabulary = afterFilter.collect().size();
 		
+		System.out.println("sizeOfVocabulary " + sizeOfVocabulary);
+		
 		/**
 		 * Union positive and negative to get full data
 		 */
         // 2.) Hash all documents
-        HashingTF tf = new HashingTF(sizeOfVocabulary);
+        HashingTF hashingTF = new HashingTF(sizeOfVocabulary);
         JavaRDD<LabeledPoint> tupleData = dataFull.map(content -> {
                 String[] datas = content.split("\t");
-                List<String> myList = Arrays.asList(Stopwords.removeStopWords(datas[1]).split(" "));
-                return new LabeledPoint(Double.parseDouble(datas[0]), tf.transform(myList));
-        }); 
+                
+                String filter = datas[1].replaceAll("[0-9]", "");
+                
+                List<String> myList = Arrays.asList(Stopwords.removeStopWords(filter).split(" "));
+                return new LabeledPoint(Double.parseDouble(datas[0]), hashingTF.transform(myList));
+        });
         // 3.) Create a flat RDD with all vectors
         JavaRDD<Vector> hashedData = tupleData.map(label -> label.features());
         // 4.) Create a IDFModel out of our flat vector RDD
-        IDFModel idfModel = new IDF().fit(hashedData);
+        IDFModel idfModel = new IDF(2).fit(hashedData);
         // 5.) Create tfidf RDD
         JavaRDD<Vector> idf = idfModel.transform(hashedData);
         
@@ -124,10 +131,10 @@ public class New_TFIDF {
 	    // Test on a positive example and a negative one.
 	    // First apply the same HashingTF feature transformation used on the training data.
 	    
-		Vector posTestExample = idfModel.transform(tf.transform(Arrays
-				.asList(Stopwords.removeStopWords("người miền trung không liên_quan ngại_ngùng")
+		Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
+				.asList(Stopwords.removeStopWords("vất_vả vì điều đó là không ổn")
 						.split(" "))));
-		Vector negTestExample = idfModel.transform(tf.transform(Arrays
+		Vector negTestExample = idfModel.transform(hashingTF.transform(Arrays
 				.asList(Stopwords.removeStopWords("sắp thi rồi mà bao_giờ mới có lịch nộp học_phí vậy các cậu bất_hạnh năm nay trường mình không thèm thu học_phí sao các cậu đau ( hoặc có tăng_giá thì cũng nói để sinh_viên chuẩn_bị trước tinh_thần chứ , tiền có phải lá cây đâu mà nói một lúc là chuẩn_bị được ngay . nghe đồn có rồi ngạc_nhiên").split(" "))));
 		// Now use the learned model to predict positive/negative for new
 		// comments.
@@ -177,32 +184,4 @@ public class New_TFIDF {
 	    sc.close();
 	}
 	
-	/**
-	 * Create LabeledPoint data for positive and negative data
-	 * @param tf
-	 * @param data
-	 * @param labelPoint
-	 * @return a LabeledPoint
-	 */
-	public static JavaRDD<LabeledPoint> getLabeldPointData(HashingTF tf,
-			JavaRDD<String> data, double labelPoint) {
-		
-		// 1.)Create LabeledPoint from input data
-        JavaRDD<LabeledPoint> tupleData = data.map(content -> {
-                List<String> myList = Arrays.asList(content.split(" "));
-                return new LabeledPoint(labelPoint, tf.transform(myList));
-        }); 
-        // 2.) Create a flat RDD with all vectors
-        JavaRDD<Vector> hashedData = tupleData.map(label -> label.features());
-        // 3.) Create a IDFModel out of our flat vector RDD
-        IDFModel idfModel = new IDF().fit(hashedData);
-        // 4.) Create tfidf RDD
-        JavaRDD<Vector> idf = idfModel.transform(hashedData);
-        // 5.) Create Labledpoint RDD
-        JavaRDD<LabeledPoint> idfTransformed = idf.zip(tupleData).map(t -> {
-            return new LabeledPoint(t._2.label(), t._1);
-        });
-        
-		return idfTransformed;
-	}
 }
