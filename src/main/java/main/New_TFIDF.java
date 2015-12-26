@@ -95,7 +95,7 @@ public class New_TFIDF {
         JavaRDD<LabeledPoint> tupleData = dataFull.map(content -> {
                 String[] datas = content.split("\t");
                 
-                String filter = datas[1].replaceAll("[0-9]", "");
+                String filter = datas[1].replaceAll("[0-9]", " ");
                 
                 List<String> myList = Arrays.asList(Stopwords.removeStopWords(filter).split(" "));
                 return new LabeledPoint(Double.parseDouble(datas[0]), hashingTF.transform(myList));
@@ -131,11 +131,12 @@ public class New_TFIDF {
 	    // Test on a positive example and a negative one.
 	    // First apply the same HashingTF feature transformation used on the training data.
 	    
+	    String ax = Stopwords.removeStopWords("Có những người cùng_với bạn đi qua những ngày_tháng yên_ả , cũng chia_sẻ những chuyện vui_buồn giản_dị trong cuộc_sống thường_ngày . Rồi có một ngày không còn họ nữa . Rồi có một ngày khi mà ta có được niềm_vui , thật_sự rất vui , muốn họ là người đầu_tiên mình chia_sẻ , là người đầu_tiên chúc_mừng , nhưng không được nữa rồi , chỉ biết nhớ về những khoảnh_khắc được động_viên , an_ủi ... Bỗng cảm_thấy trong lòng có chút trống_rỗng , có chút xót_xa . Bạn , đã từng có một người như_thế chưa buồn_bã");
+	    
 		Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(Stopwords.removeStopWords("vất_vả vì điều đó là không ổn")
-						.split(" "))));
+				.asList(ax.split(" "))));
 		Vector negTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(Stopwords.removeStopWords("sắp thi rồi mà bao_giờ mới có lịch nộp học_phí vậy các cậu bất_hạnh năm nay trường mình không thèm thu học_phí sao các cậu đau ( hoặc có tăng_giá thì cũng nói để sinh_viên chuẩn_bị trước tinh_thần chứ , tiền có phải lá cây đâu mà nói một lúc là chuẩn_bị được ngay . nghe đồn có rồi ngạc_nhiên").split(" "))));
+				.asList(Stopwords.removeStopWords("bất_hạnh quá đấy").split(" "))));
 		// Now use the learned model to predict positive/negative for new
 		// comments.
 		System.out.println("Prediction for positive test example: "
