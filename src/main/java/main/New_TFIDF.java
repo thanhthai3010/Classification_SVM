@@ -131,12 +131,18 @@ public class New_TFIDF {
 	    // Test on a positive example and a negative one.
 	    // First apply the same HashingTF feature transformation used on the training data.
 	    
-	    String ax = Stopwords.removeStopWords("Có những người cùng_với bạn đi qua những ngày_tháng yên_ả , cũng chia_sẻ những chuyện vui_buồn giản_dị trong cuộc_sống thường_ngày . Rồi có một ngày không còn họ nữa . Rồi có một ngày khi mà ta có được niềm_vui , thật_sự rất vui , muốn họ là người đầu_tiên mình chia_sẻ , là người đầu_tiên chúc_mừng , nhưng không được nữa rồi , chỉ biết nhớ về những khoảnh_khắc được động_viên , an_ủi ... Bỗng cảm_thấy trong lòng có chút trống_rỗng , có chút xót_xa . Bạn , đã từng có một người như_thế chưa buồn_bã");
+	    String pos = Stopwords.removeStopWords("bật_cười ủa . Hình_như cũng do qđiểm thôi . Mình học TE ở trường từ TE 1 đến TE5 rồi bạn . Sinh_viên rồi , qtrọng là ở tự học thôi . Bản_thân có muốn học hay ko . Chứ còn với những người làm_biếng thì_có giáo_trình sao đi_nữa cũng vẫn vậy . Rồi có chắc giao bài về nha là làm ko bật_cười hay lại than trời ông nọ bà kia khó . Bản_thân thấy học TE ở trường giúp làm_quen rất nhiều vs các từ chuyên_ngành . Ko có bh là đủ để học av . Ko có thể_nào mà đi hết trung_tâm này trung_tâm khác là bạn có_thể giỏi đc . Cái cốt_lõi vẫn là bản_thân thôi . Lớn rồi tữ vận_động đi , đừng trách_móc nữa . Thêm nữa , toeic bằng đầu_ra điểm nv là quá dễ_dàng rồi . Lấy cái bằng đó chưa chắc là đủ cạnh_tranh khi ra trường đâu . Thân .".toLowerCase());
 	    
 		Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(ax.split(" "))));
+				.asList(pos.split(" "))));
+		
+		String neg = Stopwords.removeStopWords("Mọi người cho em hỏi cái vụ điểm liệt môn toán cao_cấp là có thật ko ? Thi dưới 2đ có bị liệt và rớt môn ko ? sợ quá"
+				.toLowerCase());
+		
+		System.out.println(neg);
+		
 		Vector negTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(Stopwords.removeStopWords("bất_hạnh quá đấy").split(" "))));
+				.asList(neg.split(" "))));
 		// Now use the learned model to predict positive/negative for new
 		// comments.
 		System.out.println("Prediction for positive test example: "
@@ -161,6 +167,7 @@ public class New_TFIDF {
 
 	    // Get evaluation metrics.
 	    MulticlassMetrics metrics = new MulticlassMetrics(predictionAndLabels.rdd());
+	    //metrics.
 
 	    // Confusion matrix
 	    Matrix confusion = metrics.confusionMatrix();

@@ -132,7 +132,7 @@ public class Stopwords {
 			Arrays.asList(stopwords));
 
 	public static boolean isStopword(String word) {
-		if (word.length() < 2)
+		if (word.length() < 3)
 			return true;
 		// if (word.charAt(0) >= '0' && word.charAt(0) <= '9')
 		// return true; // remove numbers, "25th", etc
