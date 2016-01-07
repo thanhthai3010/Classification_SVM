@@ -31,7 +31,7 @@ public class New_TFIDF {
 	    JavaSparkContext sc = new JavaSparkContext(sparkConf);	    
 
         // 1.) Load the documents
-        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataClassifyFull.txt");
+        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataClassifyFull_New.txt");
         
 	    JavaPairRDD<String, Long>  termCounts = dataFull.flatMap(new FlatMapFunction<String, String>() {
 
@@ -131,12 +131,14 @@ public class New_TFIDF {
 	    // Test on a positive example and a negative one.
 	    // First apply the same HashingTF feature transformation used on the training data.
 	    
-	    String pos = Stopwords.removeStopWords("bật_cười ủa . Hình_như cũng do qđiểm thôi . Mình học TE ở trường từ TE 1 đến TE5 rồi bạn . Sinh_viên rồi , qtrọng là ở tự học thôi . Bản_thân có muốn học hay ko . Chứ còn với những người làm_biếng thì_có giáo_trình sao đi_nữa cũng vẫn vậy . Rồi có chắc giao bài về nha là làm ko bật_cười hay lại than trời ông nọ bà kia khó . Bản_thân thấy học TE ở trường giúp làm_quen rất nhiều vs các từ chuyên_ngành . Ko có bh là đủ để học av . Ko có thể_nào mà đi hết trung_tâm này trung_tâm khác là bạn có_thể giỏi đc . Cái cốt_lõi vẫn là bản_thân thôi . Lớn rồi tữ vận_động đi , đừng trách_móc nữa . Thêm nữa , toeic bằng đầu_ra điểm nv là quá dễ_dàng rồi . Lấy cái bằng đó chưa chắc là đủ cạnh_tranh khi ra trường đâu . Thân .".toLowerCase());
+	    String pos = Stopwords.removeStopWords("chỉ là like dạo thôi bạn tức_cười nếu qt đã tìm cách ib rồi".toLowerCase());
+	    
+	    System.out.println(pos);
 	    
 		Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
 				.asList(pos.split(" "))));
 		
-		String neg = Stopwords.removeStopWords("Mọi người cho em hỏi cái vụ điểm liệt môn toán cao_cấp là có thật ko ? Thi dưới 2đ có bị liệt và rớt môn ko ? sợ quá"
+		String neg = Stopwords.removeStopWords("cảnh_giác nay trạm nhà_sách băng nhỏ vụ_việc yêu xém biến_thái show xem giác_quan ổn dí qwerty hai quay dám làm_gì rõ yêu cảnh_báo học yêu ngang nhà_sách bến_xe mấy cẩn_thận nhất_là giờ sáng_sớm giờ vắng mấy cảnh_báo yêu tình_trạng nay khuyên nào_hay hãy dao rọc giấy nha lỡ đụng biến_thái mấy cố_gắng giữ dân sợ nha nhớ cẩn_thận "
 				.toLowerCase());
 		
 		System.out.println(neg);
