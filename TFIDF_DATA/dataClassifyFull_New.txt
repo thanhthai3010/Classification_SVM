@@ -3529,7 +3529,7 @@
 0	tình_trạng lười toàn_tập ngơ_ngẩn
 1	có nhiều con đường để lựa_chọn , mình đã chọn cách học lại với mấy đứa , cũng thấy dui dui yêu_đời trở_lại , bớt tự kỉ khoái_trá
 1	chịu_khó lên trường thôi bật_cười )
-0	- tại_sao con buồn giận_dữ - vì con điểm kém bất_hạnh - tại_sao con điểm kém - vì con chơi game ngại_ngùng - tại_sao con chơi game ngang_ngược - vì con buồn < (  )
+0	- tại_sao con buồn giận_dữ - vì con điểm kém bất_hạnh - tại_sao con điểm kém - vì con chơi game ấu_trĩ - tại_sao con chơi game ngang_ngược - vì con buồn < (  )
 0	không sao đâu bác , nếu bác chơi chán rồi thì bắt_đầu lại còn kịp mà em thấy trường mình nhiều người còn nhiều tuổi hơn bác mà ,
 0	Dù anh có chọn con đường nào thì cũng phải cố_gắng lên , thay_đổi cách nghĩ , cách làm và thay_đổi chính con_người mình .
 0	Dồn tất_cả thời_gian vào học tiếng Anh đi bạn . Chắc bạn vẫn muốn tấm bằng thì cố mà lếch , bỏ hết mấy cái tào_lao đi .
@@ -3580,14 +3580,14 @@
 0	lại là GGWP ngang_ngược - jn -
 0	buồn_bã FriendZone ...
 0	ngang_ngược friendzone every where ...
-0	Lộn cái table ngại_ngùng khổ lắm người ơi
+0	Lộn cái table ấu_trĩ khổ lắm người ơi
 0	Lỗi do ad hiểu nhầm ' nội_dung ' nên đăng trễ , xin_lỗi hai bạn bất_hạnh - jn -
 0	Gần noel rồi troll everywhere buồn_bã
 0	Chuyện tình chàng gay
 0	Gia môn bất_hạnh
 0	như phim nhăn_nhó Trâm_Vũ
 0	t mách bồ m nghe Đoàn_Trí_Đức bất_hạnh
-0	E khổ quá mà ngại_ngùng
+0	E khổ quá mà ấu_trĩ
 0	Bị thằng kia đá r chả quay lại kêu em ghen .
 0	Nó bị gato anh à , gian_dối gì cái thể_loại như_vậy , chia_tay ngta mà_còn níu_kéo như chính mình mới là người bị đá á
 0	Vãi troll
@@ -3601,7 +3601,7 @@
 0	Hóng thanh_niên An_ninh , Bảo_mật phá khóa .
 0	mình cũng đi mà không tìm vậy bất_hạnh
 0	không tha nha ngang_ngược
-0	bỏ liền đi bạn ... gì cũng được nhưng phản_bội là không được ngại_ngùng
+0	bỏ liền đi bạn ... gì cũng được nhưng phản_bội là không được ấu_trĩ
 0	chia_tay sớm bớt đau_khổ . Mình đã trải qua hoàn_cảnh như bạn nhưng không phải là mà là lần . Sự kiên_nhẫn và tha_thứ chỉ làm cho họ càng xem nhẹ bạn mà thôi
 0	Khổ rứa hè
 0	Đeo mắt kiếng ahahahaha tìm kiêm đáy bể ngang_ngược
@@ -3610,7 +3610,7 @@
 0	Thy_Nguyen khó tin quá buồn_bã
 0	khó hiểu
 0	Nguyễn_Minh_Tiến nghe quen không ngang_ngược
-0	thớt ích_kỉ v l , không có link ngại_ngùng
+0	thớt ích_kỉ v l , không có link ấu_trĩ
 0	ngang_ngược điện_thoại đâu tại_sao không lấy ra quay chứ
 0	tình HÌNH không ổn ĐÂU ngang_ngược
 0	cũng may_mà đôi nam_nữ chứ đôi nam nam thì ... ngang_ngược
@@ -3737,13 +3737,13 @@
 0	Xin_lỗi . Tuôi là thành_viên lớp đó_đây . Lớp HTTT_CTTT . Ừ . bạn viết được_cái lời thú_nhận này chắc bạn có ý_thức . Bạn bỏ ẩn_danh ra nói_chuyện thẳng chớ đăng lời thú_nhận chửi_rủa gì vậy bạn . Ờ . bạn nói đúng . lớp t phá củng ồn_ào thiệt . cơ_mà lớp t phá ở trong phòng . phòng kín âm chớ không phải phá giữa trường rồi ảnh_hưởng đến lớp_học của những người khác đâu . Mà bên ngoài có nghe thì củng không ảnh_hưởng gì . Phòng kín âm . vô phòng đứng r la xem bên ngoài có nghe không rồi hẵng nói . Có đăng cái gì thì coi cho rõ tình_hình rồi hẵng nói . chớ vô cắn bậy người taz khinh nha bạn . Bạn nghiêm_túc quá rồi nha . LỚN_RỒI . ĐẠI_HỌC_RỒI_KHÔNG_CÓ_NGU_ĐÂU_MÀ_KHÔNG_BIẾT_NGHĨ .
 0	Ôi MẮC_MỆT với mấy cái vụ này : - Thằng ghi lời thú_nhận thì nó ráng ngủ để chiều nó học - Thằng làm_nên nguyên_nhân của lời thú_nhận thì không tiếp_thu xong chửi lại Cứ nói là  Sao bạn không nói_thẳng cho tụi tui biết mà sửa  - - > Chẳng_qua chỉ đơn_giản là cái cớ . Cái confession lập ra để làm cái gì ? Nó muốn hiện_hình hay ẩn_danh thì kệ nó chứ ! ngang_ngược Giờ nghỉ trưa , mệt thấy_bà luôn chiều còn học nữa rảnh hơi_đâu_mà chạy đi nói mấy vụ này , tự ý_thức đi chứ ! ! ! ! Comment nói_thẳng đó , không có như chủ thớt đăng lời thú_nhận để các bạn / anh/chị kêu ra_mặt đâu ! ( vui_tươi ^ )
 0	Thớt nói sai rồi , Mấy bạn ấy có ý_thức chứ . Chỉ là to hay nhỏ , ít hay nhiều mà thôi . Và thớt làm_ơn ra_mặt dùm đi , mấy bạn ấy đang tìm kìa . PS : Định không cm mà kéo xuống dưới đọc thấy mấy bạn ấy cm ghê quá , hổ báo quá . Mình chỉ cm vậy thôi . Đừng gọi hội nha . Mình sợ phụ_nữ lắm buồn_bã buồn_bã
-0	nhân_vật viết lời thú_nhận này là Nguyễn_Quốc_Tuấn ngơ_ngẩn cuồng gái UIT ở mức khó tin ngại_ngùng
+0	nhân_vật viết lời thú_nhận này là Nguyễn_Quốc_Tuấn ngơ_ngẩn cuồng gái UIT ở mức khó tin ấu_trĩ
 0	Lại vơ_đũa_cả_nắm ngang_ngược
 0	tóm_tắt : Gái hiếm ! Miễn làm_phiền ngang_ngược
 0	Láo gớm , qua uit kiếm gái à lưỡng_lự
 0	cái căn tin còn vô ngồi ăn được huống_chi cái cổng ngang_ngược
 0	Có nha . UIT còn cái nhà WC nam với Thư_viện là không có USSH vào thôi nhé ... À mà tiện cho hỏi căn tin UIT ở đâu vậy ngơ_ngẩn
-0	Mình đã về nhà lâu ơi mà bất_hạnh Chung riêng gì nữa ? Đòi chia tài_sản à , my wife ? ngại_ngùng
+0	Mình đã về nhà lâu ơi mà bất_hạnh Chung riêng gì nữa ? Đòi chia tài_sản à , my wife ? ấu_trĩ
 0	IT mình qua ussh bị đuổi như đuổi tà ngơ_ngẩn
 0	mấy bạn USSH có tự hỏi là ngoài WC nam ra có chổ nào USSH chưa đến hem ấy chứ . thế_nhưng láng_giềng xấu_tính USSH không_bao_giờ cho UIT qua chơi đấu .
 0	google thẳng tiến em êy .
@@ -3752,7 +3752,7 @@
 0	một UIT và vẫn không biết Ny_Uyên K là thần nữ phương nào bất_hạnh
 0	ngang_ngược xin_lỗi nha , tui đi chỉ nhường người_già , Hết_Thanh niên không nhường làm mẹ gì ngang_ngược galang à đ * * rảnh
 0	con điên
-0	xin_lỗi chứ nhường cho nó mà xin dc sốdt của nó thì tui đi xe nào cũng nhường ngại_ngùng
+0	xin_lỗi chứ nhường cho nó mà xin dc sốdt của nó thì tui đi xe nào cũng nhường ấu_trĩ
 0	Má lầy lầy lầy lv infinity chuẩn nhăn_nhó
 0	Trường mình có  lết  à ngơ_ngẩn
 0	 gửi bạn nữ ...  là thấy hư_cấu rồi ngang_ngược thớt tự_xưng mình là  một thằng con_trai  , hư_cấu nhiều hơn_nữa ! ngang_ngược nhăn_nhó
@@ -3771,7 +3771,7 @@
 0	gian_dối xa khó lắm . Đã_vậy hầu_như không còn thời_gian nói_chuyện nữa chứ Thôi_thì chia_tay .
 0	cố_gắng lên bạn . nếu cảm_giác gian_dối vẫn còn đó thì chia_tay chỉ làm mọi chuyện tệ hơn thôi
 0	hư_cấu
-0	hư_cấu thặc ngại_ngùng ussh chỉ cần an_ninh còn uit là thùng rác mới đúng ngang_ngược
+0	hư_cấu thặc ấu_trĩ ussh chỉ cần an_ninh còn uit là thùng rác mới đúng ngang_ngược
 0	Có biết lỗi là tốt lắm rồi . : D_Nếu bạn kia_mà không chấp_nhận lời xin_lỗi của bạn thì cũng hơi nhỏ_nhặt rồi . : D
 0	sao cứ phải con_gái , bộ Cortana không được à lưỡng_lự
 0	Tóm_tắt cho ai lười đọc : Thanh_niên này đang tìm_kiếm friendzone .
@@ -3781,7 +3781,7 @@
 1	cẩn_thận thành đàn_bà với mấy thằng bạn kiểu này . @ ! @
 1	khoái_trá
 1	bạn có bựa team không bật_cười
-0	Thanh_niên K này nguy_hiểm vãi , ra quán cafe chỉ anh vài skill đi ngại_ngùng
+0	Thanh_niên K này nguy_hiểm vãi , ra quán cafe chỉ anh vài skill đi ấu_trĩ
 0	buồn_bã nỗi_niềm của hàng ngàn sinh_viên uit . hic
 0	Thằng đông mới bình_luận mà xóa đâu mất rồi ngang_ngược
 0	dại_gái ngang_ngược
@@ -3862,7 +3862,7 @@
 0	mem nhân_văn đã thấu hỉêu khuyên bạn cái j khó wúa bỏ
 0	Tưởng chỉ lời thú_nhận của các trường cấp mới có mấy thể_loại gian_dối_đương nhắng_nhít như_thế_nào ( ( ( =
 0	mình cũng đã từng như bạn vậy . mình luôn mặc_cảm bản_thân , không biết hòa_nhập nên luôn ở trong tình_trạng tự cô_lập bản_thân . mình chỉ thay_đổi sau khi trải qua những biến_cố lớn và tìm ra những người bạn tốt thực_sự xung_quanh mình . mình nghĩ đó là thứ bạn cần . thực_ra xung_quanh có rất nhiều người có_thể giúp bạn . các anh_chị sinh_viên đoàn hội , cố_vấn , . . nếu cần b có_thể inbox mình . m sẽ giúp những gì có_thể .
-0	Chẳng bao_giờ là muộn khi một người muốn thay_đổi , Nhưng chỉ nói ( viết ) ra mà không có ý làm ... ( à mà không phải dùng từ  mà không làm  mới đúng ) thì chỉ mãi như một giấc_mơ ngại_ngùng . Sao bạn không thử làm đi , có mất cái gì đâu khi mà không thử .
+0	Chẳng bao_giờ là muộn khi một người muốn thay_đổi , Nhưng chỉ nói ( viết ) ra mà không có ý làm ... ( à mà không phải dùng từ  mà không làm  mới đúng ) thì chỉ mãi như một giấc_mơ ấu_trĩ . Sao bạn không thử làm đi , có mất cái gì đâu khi mà không thử .
 0	nhăn_nhó nghe giống giống mình nhăn_nhó nhắn_tin nói_chuyện đỡ buồn 　 chết chả lẽ mình cũng bị nhẹ nhẹ ngơ_ngẩn
 0	chưa có học_hành gì thì đã game r ngang_ngược
 0	thanh_niên vào UIT chủ_yếu để chơi game ngang_ngược
@@ -3873,8 +3873,8 @@
 0	Nhạt ...
 0	cảm_thấy mình lạc_hậu : >
 0	 tôi ngồi chán nên ngắm thôi  . . lại còn nhìn lén nữa chứ . . đàn_ông con_trai đi nhát thế ... nếu là thằng con_trai thì xách súng lên mà đi săn đi ...
-0	thì lap hư mang ra tiệm sửa đi có sao đâu ngại_ngùng
-0	Khó hiểu ngại_ngùng tự biện_minh chi cho khổ
+0	thì lap hư mang ra tiệm sửa đi có sao đâu ấu_trĩ
+0	Khó hiểu ấu_trĩ tự biện_minh chi cho khổ
 0	Sướt_mướt kinh
 0	 E chẳng phải là đứa con_gái ...  ngang_ngược well , fuck
 0	thím cư đem mấy câu này đập thẳng vào mặt thèn đó chứ đăng lên này làm_gì trời
