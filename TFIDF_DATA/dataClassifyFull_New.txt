@@ -289,6 +289,7 @@
 1	ôi giời cái bọn này    ngại_ngùng
 1	hãy chắc_chắn với tình_cảm của bạn , đừng chỉ vì một_chút  cảm_giác  mà để sau_này nhận ra nó không phải tình_yêu  rồi lại  haizz  nhức đầu nhắm bật_cười 
 1	ôi hay thế nó cũng thích em đó ấy mà bật_cười 
+0	sự ấu_trĩ dốt_nát
 1	gì mà lãng_mạn thế  đừng tỏ_tình , bật_cười gato lắm
 0	sợ cái mẹ gì m  dám hôn mà éo dám tỏ_tình , em lậy thánh 
 1	minh_quân mùi gió em ơi hài_hước
@@ -2297,7 +2298,8 @@
 1	tôi là sinh_viên khoa triết  nếu được chọn lại lần nữa tôi cũng sẽ làm sinh_viên khoa triết ngại_ngùng thẹn_thùng
 1	thấy học triết_học maclenin hay mà ta
 1	ngồi đợi cả tiếng đồng_hồ cũng không thấy phục_vụ đem ra cho cái menu , toàn phải chạy vô trong quầy order , chẳng thà không có phục_vụ thì hay hơn
-1	khương viết ah bật_cười   
+1	khương viết ah bật_cười 
+0	đừng bao_giờ làm những điều ấu_trĩ
 1	tự_tin khoe cá_tính đi bạn vui_tươi ~ ~
 1	vãi thớt khoái_trá
 0	mình không thích các bạn nữ mà ăn_mặc , cắt tóc như con_trai  ánh nhìn đầu_tiên là cái nhìn không thiện_cảm và không muốn tiếp_xúc  nếu tính_cách mà giống con_trai luôn thì_thôi không chơi luôn 
@@ -2344,6 +2346,7 @@
 0	cái này nhớ là đọc ở đâu rồi  ngang_ngược
 1	thanh_niên sống ảo nháy_mắt
 1	bật_cười  thật nhiệm mào
+0	điều ấu_trĩ vậy_mà cũng làm
 1	có gì đó quen_quen khoái_trá
 1	hẳn là bác ấy rất vui khoái_trá khoái_trá
 0	thất_vọng vì đồ_án
@@ -2374,7 +2377,8 @@
 1	qua ah 1 mua ăn , dạo này có nhiều bạn nữ qua ăn hơn nên cũng đỡ ngại  ah1 bán không tệ đâu
 1	có nhiều chỗ ăn để mình lựa_chọn mà , có vài chỗ ăn ngon giá cũng 15k mà đồ_ăn nhiều nữa
 0	nhà_ăn mở ra là để phục_vụ cho sinh_viên , chất_lượng không tốt thì cứ phản_ánh  đây chẳng phải là mục_đích của confessions sao   
-0	chắc bạn không may í , chứ đó gìơ tui ăn vẫn để đồ_ăn ok lắm mà  
+0	chắc bạn không may í , chứ đó gìơ tui ăn vẫn để đồ_ăn ok lắm mà 
+0	Nhiều bệnh ấu_trĩ 
 1	không thực làm_sao dựt được đạo  ăn_không no làm_sao học  đơn_giản vấn_đề là  ăn no , mặc ấm  rồi mới  ăn_ngon_mặc_đẹp  bn hùng ơi bn đã hiểu chửa ! ! ! !
 0	theo tui trên đời này chỉ có một môia tình duy_nhất là tình_đầu mà thôi  những mối tình tiếp_theo chỉ là sự tìm kím một nguời thay_thế cho mối tình_đầu chưa trọn_vẹn kia
 1	 nếu bạn dũng_cảm , hãy chọn người bạn yêu  nếu_không , hãy chọn người_yêu bạn 
@@ -2405,6 +2409,7 @@
 1	bạn vui_lòng liên_lạc lại với bên công_tác của uel nhé  bạn mình nhặt được gửi lại rồi
 1	ghi sai link kìa bạn vui_vẻ
 1	không nha bật_cười 
+0	căn_bệnh ấu_trĩ
 1	đã xem sáng_sủa
 1	đừng tin trá_hình đấy  chỉ có con_trai với con_trai yêu nhau thôi đừng tinnn
 1	sáng_sủa hú
@@ -3752,7 +3757,7 @@
 0	một UIT và vẫn không biết Ny_Uyên K là thần nữ phương nào bất_hạnh
 0	ngang_ngược xin_lỗi nha , tui đi chỉ nhường người_già , Hết_Thanh niên không nhường làm mẹ gì ngang_ngược galang à đ * * rảnh
 0	con điên
-0	xin_lỗi chứ nhường cho nó mà xin dc sốdt của nó thì tui đi xe nào cũng nhường ấu_trĩ
+0	xin_lỗi chứ nhường cho nó mà xin dc số của nó thì tui đi xe nào cũng nhường ấu_trĩ
 0	Má lầy lầy lầy lv infinity chuẩn nhăn_nhó
 0	Trường mình có  lết  à ngơ_ngẩn
 0	 gửi bạn nữ ...  là thấy hư_cấu rồi ngang_ngược thớt tự_xưng mình là  một thằng con_trai  , hư_cấu nhiều hơn_nữa ! ngang_ngược nhăn_nhó
