@@ -230,7 +230,7 @@
 1	nguyễn hoàng nam : bạn này lớp mình hay_sao ý nhề sáng_dạ
 1	vui_nhộn cứ tưởng nhân_văn gottalen mừng_hụt
 0	vụ này quá_ư là hoang_mang ấy ạ  nghe xong phải cảnh_giác khi thuê nhà rồi 
-1	này , cẩn_thận song ngân
+0	này , cẩn_thận song ngân
 1	tránh luôn nhà số 8 ngách 64/33 vũ trọng phụng nữa nhé đau_khổ khu ấy toàn bảo  tao phục mấy đứa - ở được nhà bà thiều đến 3 năm  tốt_lành      
 1	may thế mình ở 64/27 thoải_mái vô_cùng
 1	đọc xong tn thấy quý bà chủ nhà đồng_bóng chỗ mình hài_hước hài_hước hài_hước
@@ -293,7 +293,7 @@
 1	gì mà lãng_mạn thế  đừng tỏ_tình , may_mắn gato lắm
 0	sợ cái mẹ gì m  dám hôn mà éo dám tỏ_tình , em lậy thánh 
 1	minh_quân mùi gió em ơi hài_hước
-1	bạn_thân nháy_mắt chả tin bố_con thằng nào nhé meo mai minh chau cẩn_thận anh zai đấy châu
+0	chả tin bố_con thằng nào nhé meo mai minh chau cẩn_thận anh zai đấy châu
 1	không có bạn_thân khác giới đâu , mạnh_dạn lên , được ăn cả , ngã thì vẫn làm_bạn dk mà , nhanh còn kịp , bạn nhé
 0	friend cái beep nhích đi em thành_công 100% luôn đó , mệt người qá à , đèn_xanh bật lên còn không chạy đi đau_khổ
 0	Ui  khóc nửa_đêm khóc_lóc
@@ -934,7 +934,7 @@
 0	lành trịnh xem đi
 1	jet black của phó này nháy_mắt
 0	em là người đã từng bị dụ_dỗ và đường_dây đa_cấp  nhưng iêm là thanh_niên cứng  nói_gì bọn kia cũng cứng_họng  hiahia
-1	bạn mình mới bị lừa  mọi người cẩn_thận 
+0	bạn mình mới bị lừa  mọi người cẩn_thận 
 1	beebee nguyen êi  có phải chị tự make colour không đấy  nếu_không là_hơi bị gato đấy nhé ngại_ngùng
 1	ngất khoái_trá khoái_trá khoái_trá
 0	cảnh_báo : thớt tránh xa bạn_gái của bạn_trai tôi ra nhé  
@@ -1166,11 +1166,11 @@
 1	ông nào khoa sử vào nhận đi kià để t còn nhận đồng_hương hy_vọng
 1	đây là cfs của nhân_văn hôm_nay bạn ạ vui_vẻ
 1	tức_cười
-1	nguyễn hương quỳnh đỗ_quyên hoàng ngân cẩn_thận nhé tức_cười tức_cười tức_cười
+0	nguyễn hương quỳnh đỗ_quyên hoàng ngân cẩn_thận nhé
 1	mai sang đấy hóng xem nào khoái_trá
-1	giang mềumyys méolượng trầnthu đàothanh hằng cẩn_thận này các thị ơi đau
-0	trang kiều hường hâm
-1	nguyễn tú linh chế cẩn_thận khoái_trá
+0	cẩn_thận này các thị ơi đau
+0	hâm
+0	chế cẩn_thận
 0	giời_ơi là giời sinh_viên đã khổ lm rồiii anh ngoc nguyen chuối nhung đào thu thuy nguyen linh hồng
 1	hắn là nam hay nữ vậy
 0	hôm trước mất ví trên xe 02 , quá nhọ đau         
@@ -2125,7 +2125,7 @@
 1	không đi làm , không ra đường là chắc_ăn khoái_trá
 1	kêu thằng người_yêu đi_khách hộ khoái_trá
 0	thôi_thì em về quản_lí kinh_tế nhà anh đi  làm sếp anh_cả đời là khỏi sợ nhé 
-1	liêm_sỉ cẩn_thận thôi  còn phải xem hàng_họ bạn thế_nào đã  nhưng_mà đừng có quá lo vụ đó  trời sinh voi sinh cỏ xứng_đôi
+0	liêm_sỉ cẩn_thận thôi  còn phải xem hàng_họ bạn thế_nào đã  nhưng_mà đừng có quá lo vụ đó  trời sinh voi sinh cỏ xứng_đôi
 1	công_ty nước_ngoài , tập_đoàn lớn dịu_hiền  chứ công_ty vn thì không mấy_ai thích khoái_trá
 1	nếu đẹp thì mới bị nha
 1	v ~ ~ tư_tưởng  chọn việc mà làm chớ , pải biết lượng sức và tùy_cơ_ứng_biến chớ  1 con_bé tốt_nghiệp kte cho_hay dịu_hiền
@@ -3783,7 +3783,7 @@
 0	méo bh tin cái thể_loại tình_bạn này bất_hạnh
 1	kb dj ban tức_cười dag tjm thang ban than
 1	cũng muốn kết_bạn với em cơ_mà chị chuẩn_bị ra trường rồi khoái_trá
-1	cẩn_thận thành đàn_bà với mấy thằng bạn kiểu này . @ ! @
+0	cẩn_thận thành đàn_bà với mấy thằng bạn kiểu này . @ ! @
 1	khoái_trá
 1	bạn có bựa team không hy_vọng
 0	Thanh_niên K này nguy_hiểm vãi , ra quán cafe chỉ anh vài skill đi ấu_trĩ
@@ -4061,7 +4061,7 @@
 1	vaò trường là do xô_đẩy nhưng thấy yêu và không tốt_bụng
 0	Lần này không tạch môn nào chị sẽ nói : - D
 1	Nghỉ ôn thi r mà dễ_thương
-1	Cọc nhớ mang theo dây thừng nhớ ... cẩn_thận không cắm chết trâu pha_trò    không vui đâu
+0	Cọc nhớ mang theo dây thừng nhớ ... cẩn_thận không cắm chết trâu pha_trò    không vui đâu
 1	Ha_Tran c nổi_tiếng bắt_đầu_từ bây_giờ hấp_dẫn
 1	Kiều_Dung nổi_tiếng
 1	Mình chỉ có tò_mò thôi thân_yêu   sử thì_phải tìm các thánh khoa Sử nhé
@@ -4598,7 +4598,7 @@
 0	ở KTX mà lười thì em ra trạm bus bắt
 0	những đứa kỳ_thị các bạn tiếng Anh kém sẽ bị cả trường kỳ_thị lại nha em bức_xúc
 0	hình_như học chậm hơn so với mấy bạn khác là cũng hơi quê quê đó
-0	cảnh_giác cảnh_giác cảnh_giác . Phòng nhỏ thì toàn cảnh_giác cảnh_giác cảnh_giác
+0	cảnh_giác cảnh_giác cảnh_giác . Phòng nhỏ thì toàn cảnh_giác
 0	Xe kìa Lam_Phu_Quy sàm_sỡ
 0	Trường mình khát lạnh . biến_thái biến_thái đón ở / tầm h là được rồi em . Trường h học
 0	Cha hơi căng nhak em , vì không phải riêng xe_buýt , phòng học tại IU là siêu lạnh chưa kể là thư_viện là_hơi mệt đó em .
@@ -4762,7 +4762,7 @@
 1	nói nghe nà , muốn biết thông_tin chính_xác về học_bổng thì lên hỏi trường , mắc gì cứ lên đây hỏi thiên_hạ cho người ý rồi hoang_mang ?
 1	lanh_lợi . Học IU thì em sẽ học chúc_mừng 
 1	nhất làng đại_học theo mình thấy thì_có điểm đó nổi_bật nhất khỏe_khoắn
-0	Internship có gì đâu khoái em , tự tìm , tự_biên , tự diễn cảnh_giác cảnh_giác cảnh_giác
+0	Internship có gì đâu khoái em , tự tìm , tự_biên , tự diễn cảnh_giác cảnh_giác
 1	học IU học_phí rẻ nhất làng đh khỏe_khoắn
 1	ở IU $ / chỉ hơn hẳn trg kia em nhé khỏe_khoắn
 1	đi xe bus, thoải_mái
