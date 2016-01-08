@@ -37,6 +37,7 @@
 0	buồn_bã quá trời
 1	k58 nhân học ngồi ngóng tích_cực
 1	nguyễn hương thớt stt yêu mày i love you bộp bộp cệch cệch tức_cười
+0	cần đề_phòng các cảnh_báo
 1	chăm_chỉ tag t vào vì mđích j tích_cực hả ngoan từ bé
 1	nguyễn hương thế thỳ hình_như t được đề_cao quá rồi xứng_đôi
 1	ui cha lớp mình có chế nào yêu trai kỹ_thuật thế 
@@ -118,6 +119,7 @@
 1	thu cam khánh huyền nguyễn thảo linh trâm dự là lớp mình thẹn_thùng tao còn chưa biết mặt_mũi giáo_trình như_thế_nào
 1	học tất_tần_tật thì yên_tâm thi nhé 2 môn mày cứ xđ học lại cho chắc kiến_thức
 1	thi tới cổ rồi đýtt gì nữa m vui_nhộn trâm
+0	những cảnh_báo nguy_hiểm cần cảnh_báo ngay_lập_tức
 1	em mở giáo_trình ra và bắt_đầu_từ đầu giáo_trình nhá , à , bỏ cái bầy sách ra thẹn_thùng
 0	cả kì không học gì thì cuối kì cần gì phải học tất_cả là do ăn_ở viết đề_cương rồi học đi em học hết đừng bỏ câu nào
 1	triết 1 em cứ lấy ví_dụ chém nhé , không cần học thuộc lý_thuyết , hiểu là được
@@ -1258,6 +1260,7 @@
 1	qth dạo này nổi_tiếng trên cfs ha hiền_lành hiền_lành
 1	đáng nhẽ phảu vui chứ nhỉ chị 22t rồi_đây mà_còn chưa có mảh nào nên em yên_tâm không việc gù phải gato cả vui_nhộn
 1	thanh_lịch henshyn
+0	cảnh_báo xấu_xa
 0	chắc xấu trai rồi đen
 1	trai k 60 bao chi ai cug đẹp_trai het
 1	thích mỗi câu cuối : không gặp là không được đâu chị nhé vì vui_vẻ
@@ -4173,7 +4176,7 @@
 0	Tú_Nguyễn_Anh chả nhẽ là cái chú_ý sao
 1	tớ ở đấy suốt , chú khá hiền , tốt_tính theo cảm_nhận của tớ thân_yêu
 0	KLQ em mất giáo_trình Báo_chí và truyền_thông đại_cương mượn ở thư_viện trường , vô tiệm sách cũ đó không có luôn . Các cô các mẹ nào có bán rẻ lại cho em đi ạ
-1	T thì không thích sách cũ nên sẽ không ghé đâu . Cảm_ơn bạn đã cảnh_báo 
+0	cảnh_báo thiên_tai
 0	Tiểu nhị . Muối đâu đem cho ta kí giận_dỗi giận_dỗi
 0	Huong_Sún cái ông chú năm_ngoái đó .
 0	Heo_Đất_Heo_Đất , Tố_Uyên
