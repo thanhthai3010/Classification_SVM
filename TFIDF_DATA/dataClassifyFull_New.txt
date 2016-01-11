@@ -33,7 +33,7 @@
 1	 ngọc linh thúy của m tất_bật cười 	
 1	gái uit được tích_cực	
 1	ạ lắm thế cậu xứng_đôi * phải mạnh_mẽ lên mới có người_yêu chứ xứng_đôi *	
-1	1 k60 nhân học đang chưa nghĩ ra k 59 nhân học nào có ánh mắt đặc_biệt hài_hước hài_hước hài_hước hài_hước hài_hước	
+1	1 k60 nhân học đang chưa nghĩ ra k 59 nhân học nào có ánh mắt đặc_biệt hài_hước hài_hước hài_hước hài_hước hơn_nữa	
 0	buồn_bã quá trời	
 1	k58 nhân học ngồi ngóng tích_cực	
 1	yêu mày i love you tức_cười, love love	
@@ -54,7 +54,7 @@
 1	đây là nhân_văn hà_nội hay hcm thế * bus số 8 *	
 1	nhầm hàng rồi vui_nhộn chắc thớt muốn gửi ussh hcm	
 0	sầu đời giận_dữ	
-1	lại thánh nào_đó hcm lạc à dịu_hiền	
+1	lại thánh nào_đó hcm lạc à dịu_hiền hơn_nữa
 0	nguyễn anh loan đắng lòng	
 0	sát họa cốt đắng mề thiệt chứ	
 1	cơ_cấu cả rồi dịu_hiền	
@@ -81,7 +81,7 @@
 1	ý là khen trường nhân_văn hay muốn kiếm gấu nhân_văn xứng_đôi 	
 0	quay đi quẩn lại cũng chỉ là kiếm gấu dạo khốn_kiếp	
 1	đi lạc cận thận bị xích lại đấy em ơi xứng_đôi 	
-1	cần trai hay gái vui_vẻ	
+1	cần trai hay gái vui_vẻ hơn_nữa	
 0	tai_nạn thảm_khốc đau_thương	
 1	đánh_bắt hơi xa rồi đấy vui_nhộn nam nhân_văn thân_thiện cũng tùy lúc nhá vui_nhộn	
 1	vào rồi được vài bữa lại muốn ra xứng_đôi	
@@ -111,7 +111,7 @@
 0	cũng muốn hỏi ngu uet là cái j buồn_bã nhưng_mà thấy nhiều người hỏi không được tl bất_hạnh nên thôi tê_tái	
 0	t đang học mtpt đây thất_vọng hủy đi chị	
 1	lý_do thực_sự là tại cô nv xinh quá , còn que kem chỉ là cái cớ để quay lại thôi 	
-1	trai nhân_văn bị quên rồi à xứng_đôi t ở đây	
+1	trai nhân_văn bị quên rồi à xứng_đôi hơn_nữa hơn_nữa
 0	hẳn là một lời xin_lỗi 	
 1	môn môi_trường cứ xác_định là ôn hết nhé vui_nhộn ak mà ôn hết cũng không chắc làm dc hết đâu vui_nhộn	
 1	anh vào cho em nó ít kinh_nghiệm mon moi truong vui_vẻ	
@@ -137,7 +137,7 @@
 1	đừng chửi bọn nó thẹn_thùng nhiều môn t cũng đk cùng k 57 mà thẹn_thùng tích_cực	
 1	thuở sinh_viên, mỗi đăng_kí môn_học tốt_lành toàn phải mua mì_tôm sẵn để chờ vào hệ_thống vui_vẻ	
 0	tôi ốm rục xác luôn ý chứ 	
-1	chuẩn không cần chỉnh	
+1	chuẩn hơn_nữa hơn_nữa
 1	có 1 sự_thật là 7h59-8h không nên f 5 tốt_lành load lại riêng ds môn_học thôi chứ load lại cả trang nguy_cơ thấy error rất cao hài_hước	
 0	tội_nghiệp	
 1	trai nhân_văn viết  hay ha , kiểu như_là tiểu_thuyết tình_cảm ấy nhỉ thảo 	
@@ -169,7 +169,7 @@
 1	tích như đấm vào tường không có phản_hồi vui_nhộn	
 1	em xong rồi hạnh_phúc nhường chỗ cho các thí_chủ	
 0	làm những điều vô_vị	
-1	f5 - nút bấm cho mọi vấn_đề hạnh_phúc	
+1	f5 - nút bấm cho mọi vấn_đề hạnh_phúc	hơn_nữa
 1	cứ từ_từ , cháu nào cũng có phần , hơm phải vội_vàng quá vậy vui_nhộn	
 1	năm nay các em dc bn người bỏ cuộc_chơi rồi , trong đó có chị hài_hước	
 1	em cảm_ơn admin em tìm được đồ rồi ạ thân_yêu	
@@ -1073,7 +1073,7 @@
 1	tớ cảm tôi cái anh đánh đàn ghi ta hát với 2 anh nữa đẹp_trai , đàn giỏi , hát hay v tiết_mục thứ 3 hay_sao ý	
 1	cô_gái à hy_vọng chúc 2 người sớm đến vs nhao vui_mừng vui_mừng	
 1	chúc 2 người thím hạnh phích ngại_ngùng	
-0	là 1 thằng con_trai thì mình nói thật_là anh_chàng còm của cậu nói đúng nhưng cái anh_chàng đó nói nghe bi_quan quá , không cố_gắng thì_sao mà đời tươi_đẹp được chúc hai người sớm đến với nhau 	
+0	là 1 thằng con_trai thì mình nói thật_là anh_chàng còm của cậu nói đúng nhưng cái anh_chàng đó nói nghe bi_quan quá
 0	lương luke có phải ông vô_dụng	
 1	thôi em đừng đội , không giúo được mng ngại khoái_trá	
 1	fan này em owiiii thích_thú	
@@ -2138,7 +2138,7 @@
 1	giờ cứ làm có tiền đi , mang tiền về mà cưới người mình yêu 	
 1	cưới xa thì_thôi nhà này hay nhỉ xứng_đôi 	
 1	chia_tay đi , cô ấy để mình lo khoái_trá	
-1	gia_đình mình cũng giống bạn mình giải_thích đủ điều nhưng vẫn không thành_công tức_cười	
+1	gia_đình mình cũng giống bạn mình giải_thích đủ nên đã thành_công tức_cười	
 1	anh_ấy có bạn_trai rồi thớt 1 sinh_viên spkt chia_sẻ 	
 1	anh_ấy có bạn_trai rồi thớt 1 sinh_viên spkt chia_sẻ 	
 0	yếu chỗ nào thì sửa chỗ đó	
@@ -3695,7 +3695,7 @@
 0	Ghét nhất cái thể_loại này . Giỡn cũng có mức_độ thôi tức_cười	
 0	Mỹ thụ truyền_thuyết . Hư_cấu .	
 0	Trung_Hinh gian_dối không được thì_thôi sao lại nói_xấu n . y thế Trung_Hinh	
-0	bạn đừng đem tư_tưởng này reo rắc cho mọi người nữa . đáng_ra cần có những lời thú_nhận động_viên học_hành thì nay lại có những lời thú_nhận khích_lệ các bạn nghỉ học . học đại_học là phải_biết chấp_nhận những phũ_phàng , ngày_xưa bạn học giỏi nhất lớp thì nay bạn cũng chỉ là sinh_viên bình_thường . nên đi học không hiểu , không giỏi bằng nhiều người khác là chuyện cũng bình_thường luôn . cái cần làm là cố_gắng để làm được chứ không phải thấy bại là nản . Thân 	
+0	bạn đừng đem tư_tưởng này reo rắc cho mọi người nữa . đáng_ra cần có những lời thú_nhận động_viên học_hành thì nay lại có những lời thú_nhận các bạn nghỉ học . học đại_học là phải_biết chấp_nhận những phũ_phàng, chuyện cũng bình_thường luôn. thấy bại là nản . Thân 	
 0	Còn mình thì chứng_kiến nhiều nam_sinh bỏ UIT ; rồi thi lại BK , KHTN , KT , ... . Hầu_hết bọn họ sau đó lại tiếp_tục phàn_nàn về trường mới , rồi lại chán_nản , đổ lỗi cho người # ; thậm_chí có người học - trường ĐH ( mỗi trường_học - năm ) tốn năm trời mà không TN trường nào : - /	
 0	tóm_tắt : vừa đọc xong dòng đầu có chữ trai ma kết thì_thôi . Ko đọc nữa ngang_ngược	
 0	lang_thang chợ đêm là có đông người sao lại ngồi một_mình nhỉ  rồi chung bàn nữa ngơ_ngẩn	
@@ -3729,7 +3729,7 @@
 0	đã học ERP và cảm_thấy nửa_mùa vkl ngơ_ngẩn hên là không đk tmđt	
 0	Bình_tĩnh bạn ơi , k đây , thuơng mại điên tử đây , cũng cảm_thấy rối_rắm đây , bạn nên stop mọi việc liên_quan lại ngay_lập_tức trong - ngày , không phải để từ_bỏ , mà phải ngẫm lại xem bạn nhớ được những nhận_xét gì từ thầy , nhóm bạn làm được những gì thầy công_nhận , nếu chưa có gì thì hoàn_toàn giống mình ban_đầu thôi , không có gì phải từ_bỏ khi chỉ mới bắt_đầu đâu bạn , rồi cùng nhóm bàn_bạc lại từ đầu bạn nhé , nghĩ_lại lý_do bạn bắt_đầu truớc khi nghĩ đến lý_do bạn kết_thúc vậy thôi , mình không tự_tin là giỏi ăn_nói nhưng chắc bạn hiểu ý mình	
 0	cảm_giác cũng giống bạn , học toàn mấy môn đại_cương mà lập_trình thì ít , chán_nản kinh_khủng . học cho_qua môn . chuyện bình_thường. làm ít bị chửi chỉ có cách là hỏi làm như_thế_nào, làm_tới đâu hỏi thầy tới đó . Chứ không thì chỉ có nước chết lên chết xuống . Giờ lùi thôi bạn .	
-0	mà đính_chính lại là hồi tư vần nói là tới khoảng % là kinh_tế luôn nha bạn , mà mình thấy kỳ này mặc_dù hơi nặng , nhưng_mà thấy cũng đã cố_gắng cho chúng_ta đi đúng hướng , có_lẽ thầy nói hơi nặng_lời ( thiệt ra là thầy thỉ hơi lớn_tiếng và thái_độ hơi gay_gắt một_chút ) nhưng_mà thầy cũng đã chỉ cho chúng_ta thấy cái sai cái đúng và hỗ_trợ hết_mình ( nếu bạn có cố_gắng liên_hệ nhờ sự giúp_đỡ của thầy thì mình tin là bạn sẽ thấy điều đó ) bình_tĩnh lại và nhìn lại bạn đã làm được những j nếu bạn đã có cố_gắng để làm thì mình tin là sẽ không đến_nỗi te_tua như_thế vậy nhé , năm rồi , năm nhi chi chí mà mới nhiêu đó đã không chịu nỗi sau_này đi làm rồi overtime kiểu j chọn ngành là bạn chọn có ai ép đâu , phải có trách_nhiệm với lựa_chọn của mình nhà bạn 	
+0	mà đính_chính lại là hồi tư vần nói là tới khoảng % là kinh_tế luôn nha bạn , mà mình thấy kỳ này mặc_dù hơi nặng, có_lẽ thầy nói hơi nặng_lời ( thiệt ra là thầy thỉ hơi lớn_tiếng và thái_độ hơi gay_gắt một_chút ) nhưng_mà thầy cũng đã chỉ cho chúng_ta thấy cái sai. đến_nỗi te_tua như_thế vậy nhé.
 0	không_lẽ là gái ngơ_ngẩn	
 0	nhăn_nhó má xấu trai chi khổ , nhìn gái cũng éo dám nhìn sợ nó chê xấu nhăn_nhó nhìn mấy thanh_niên tỏ_tình trên đây thấy ham quá	
 0	tóm_tắt : không có clb tennis nhỉ vô_vọng	
@@ -3818,7 +3818,7 @@
 0	Nên quen thêm em để đề_phòng rủi_ro ... đề_phòng rủi_ro vào	
 0	Chia_tay là cách giải_quyết duy_nhất .	
 0	gian_dối xa khó lắm . Đã_vậy hầu_như không còn thời_gian nói_chuyện nữa chứ Thôi_thì chia_tay .	
-0	cố_gắng lên bạn . nếu cảm_giác gian_dối vẫn còn đó thì chia_tay chỉ làm mọi chuyện tệ hơn thôi	
+0	nếu cảm_giác gian_dối vẫn còn đó thì chia_tay chỉ làm mọi chuyện tệ hơn thôi	
 0	hư_cấu	
 0	hư_cấu thặc ấu_trĩ ussh chỉ cần an_ninh còn uit là thùng rác mới đúng ngang_ngược	
 0	Có biết lỗi là tốt lắm rồi . : D_Nếu bạn kia_mà không chấp_nhận lời xin_lỗi của bạn thì cũng hơi nhỏ_nhặt rồi . : D	
@@ -4771,7 +4771,7 @@
 1	Em ơi tốt nhất_là em lên phòng đào_tạo trường hỏi nhé. Do_đó em lên pdt là tốt nhất , mấy anh_chị dễ_thương , thân_thiện , tư_vấn nhiệt_tình lắm hòa_đồng	
 1	em inbox cho chị nhé lạc_quan	
 1	em có gì không hiều thì inbox cho chị , nếu chị biết chị sẽ giải_đáp cho em hòa_đồng	
-0	Vấn_đề này đã có quá nhiều người hỏi , em có_thể tìm lại các bài viết trên page này . Thôi giờ tóm gọn lại cho em thế_này nhé , QTKD chỉ_tiêu ~ năm_ngoái , chuyên nghành chính : Marketing , BM , IB , Finance . Tiếng anh cho toàn_bộ các môn kể_cả Toán Cal , , chỉ Đường_Lối_Đảng , Tư_Tưởng_Hồ_Chí_Minh , Chủ_Nghĩa_Mác là tiếng Việt theo quy_định của trường công_lập Việt_Nam phải có mấy môn này . Đa_phần môn đại_cương sẽ cần lớp TA trợ_giảng hỗ_trợ em , cứ tham_gia đủ sẽ đậu được môn không lo_ngại . Về tiếng anh vô chuyên nghành tùy nghành sẽ cần viết nhiều , nghành cần tính_toán nhiều không chú_trọng viết . số nghành hay thuyết_trình , số thì không . Chốt lại , đậu được đại_học là giỏi rồi nên cứ cố_gắng bổ_sung thêm tiếng anh nhé = = > Không có gì phải sợ : D	
+1	Vấn_đề này đã có quá nhiều người hỏi , em có_thể tìm lại các bài viết trên page này . Thôi giờ tóm gọn lại cho em thế_này nhé , QTKD chỉ_tiêu ~ năm_ngoái , chuyên nghành chính : Marketing , BM , IB , Finance . Tiếng anh cho toàn_bộ các môn kể_cả Toán Cal , , chỉ Đường_Lối_Đảng , Tư_Tưởng_Hồ_Chí_Minh , Chủ_Nghĩa_Mác là tiếng Việt theo quy_định của trường công_lập Việt_Nam phải có mấy môn này . Đa_phần môn đại_cương sẽ cần lớp TA trợ_giảng hỗ_trợ em , cứ tham_gia đủ sẽ đậu được môn không lo_ngại . Về tiếng anh vô chuyên nghành tùy nghành sẽ cần viết nhiều , nghành cần tính_toán nhiều không chú_trọng viết . số nghành hay thuyết_trình , số thì không . Chốt lại , đậu được đại_học là giỏi rồi nên cứ cố_gắng bổ_sung thêm tiếng anh nhé = = > Không có gì phải sợ : D	
 1	Học hơi khó nhưng cố_gắng là được Bạn_bè thân_thiện , chơi thiệt lòng là được Giáo_viên tùy người , nhờ tư_vấn là được Học_phí hơi cao , nhưng không tăng là được . .	
 1	tiếng anh của em không tốt chứ có phải không biêt gì đau em , em vẫn đậu tốt_nghiệp cơ_mà khỏe_khoắn	
 1	Nếu tiếng anh tốt thì em được học bổn du_học r xuất_sắc cứ học nếu em siêng_năng .	
@@ -4939,3 +4939,6 @@
 1	híhí sắp xong hết rồi. híhí	
 1	híhí chỗ này cũng được đó chứ. híhí	
 1	híhí sắp xong hết rồi. híhí	
+1	phải cố_gắng lên hihi, cố_gắng hết_sức mình
+1	cố_gắng thì sẽ thành_công
+1	thành_công hơn_nữa
