@@ -1,16 +1,14 @@
 package main;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.function.FlatMapFunction;
 import org.apache.spark.api.java.function.Function;
-import org.apache.spark.api.java.function.Function2;
-import org.apache.spark.api.java.function.PairFunction;
 import org.apache.spark.mllib.classification.LogisticRegressionModel;
 import org.apache.spark.mllib.classification.LogisticRegressionWithLBFGS;
 import org.apache.spark.mllib.evaluation.MulticlassMetrics;
@@ -31,86 +29,35 @@ public class New_TFIDF {
 	    JavaSparkContext sc = new JavaSparkContext(sparkConf);	    
 
         // 1.) Load the documents
-        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataClassifyFull_New.txt");
+        JavaRDD<String> dataFull = sc.textFile("TFIDF_DATA/dataClassifyFull_New.txt").cache();
         
-	    JavaPairRDD<String, Long>  termCounts = dataFull.flatMap(new FlatMapFunction<String, String>() {
-
-			/**
-			 * 
-			 */
-			private static final long serialVersionUID = 1L;
-
-			public Iterable<String> call(String contents) throws Exception {
-				String[] values = contents.split("\t");
-				String filter = values[1].replaceAll("[0-9]", "");
-				return Arrays.asList(filter.split(" "));
-			}
-		}).mapToPair(new PairFunction<String, String, Long>() {
-
-			/**
-			 * 
-			 */
-			private static final long serialVersionUID = 1L;
-
-			public Tuple2<String, Long> call(String content) throws Exception {
-				return new Tuple2<String, Long>(content, 1L);
-			}
-		}).reduceByKey(new Function2<Long, Long, Long>() {
-			
-			/**
-			 * 
-			 */
-			private static final long serialVersionUID = 1L;
-
-			public Long call(Long count1, Long count2) throws Exception {
-				return count1 + count2;
-			}
-		});
-		
-		JavaPairRDD<String, Long> afterFilter = termCounts.filter(new Function<Tuple2<String,Long>, Boolean>() {
-			
-			/**
-			 * 
-			 */
-			private static final long serialVersionUID = 1L;
-
-			public Boolean call(Tuple2<String, Long> itemWordCount) throws Exception {
-				if (!Stopwords.isStopword(itemWordCount._1)) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-		});
-		
-		int sizeOfVocabulary = afterFilter.collect().size();
-		
-		System.out.println("sizeOfVocabulary " + sizeOfVocabulary);
-		
 		/**
 		 * Union positive and negative to get full data
 		 */
         // 2.) Hash all documents
-        HashingTF hashingTF = new HashingTF(sizeOfVocabulary);
+        HashingTF hashingTF = new HashingTF(40000);
         JavaRDD<LabeledPoint> tupleData = dataFull.map(content -> {
                 String[] datas = content.split("\t");
                 
                 String filter = datas[1].replaceAll("[0-9]", " ");
                 
-                List<String> myList = Arrays.asList(Stopwords.removeStopWords(filter).split(" "));
+                List<String> myList = Arrays.asList(Stopwords.removeStopWords(filter.toLowerCase()).split(" "));
                 return new LabeledPoint(Double.parseDouble(datas[0]), hashingTF.transform(myList));
         });
         // 3.) Create a flat RDD with all vectors
         JavaRDD<Vector> hashedData = tupleData.map(label -> label.features());
+        hashedData.saveAsTextFile("hashedData");
         // 4.) Create a IDFModel out of our flat vector RDD
-        IDFModel idfModel = new IDF(2).fit(hashedData);
+        IDFModel idfModel = new IDF(5).fit(hashedData);
         // 5.) Create tfidf RDD
         JavaRDD<Vector> idf = idfModel.transform(hashedData);
+//        idf.saveAsTextFile("idfModel");
         
         // 6.) Create Labledpoint RDD
         JavaRDD<LabeledPoint> dataAfterTFIDF = idf.zip(tupleData).map(t -> {
             return new LabeledPoint(t._2.label(), t._1);
         });
+//        dataAfterTFIDF.saveAsTextFile("dataAfterTFIDF");
 
 	    // random splits data for training and testing
 	    JavaRDD<LabeledPoint>[] splits = dataAfterTFIDF.randomSplit(new double[]{0.6, 0.4}, 11L);
@@ -124,33 +71,28 @@ public class New_TFIDF {
 	    lrLearner.optimizer().setNumIterations(100);
 	    final LogisticRegressionModel model = lrLearner.setNumClasses(2).run(training.rdd());
 	    
-//	    model.clearThreshold();
-	    /**
-	     * need to get vector
-	     */
-	    // Test on a positive example and a negative one.
-	    // First apply the same HashingTF feature transformation used on the training data.
+	    Set<String> listSet = new HashSet<String>(sc.textFile("TFIDF_DATA/listInput.txt").collect());
 	    
-	    String pos = Stopwords.removeStopWords("chỉ là like dạo thôi bạn tức_cười nếu qt đã tìm cách ib rồi".toLowerCase());
+	    System.out.println(listSet.size());
 	    
-	    System.out.println(pos);
+	    for (String item : listSet) {
+		    if (item.length() >= 2 ) {
+				Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
+						.asList(item)));
+				System.out.println(item + posTestExample.toString());
+				System.out.println("result: " + model.predict(posTestExample));
+			}
+		}
 	    
-		Vector posTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(pos.split(" "))));
+		String in = "có_lẽ_nào thích bạn_thân suốt ba đặc_biệt trở thành_thân thi đh phượt nộp hồ_sơ rút hồ_sơ bla bla hắn chăm troll ghét kinh pha_trò đh khối đh qg hắn chở mặc_dù học mặt ... tự_nhiên kể mẹ đh chả nhắc hắn mẹ thích hả chối lay đẹp khùng vui_tươi trả_lời mẹ câu mẹ hắn it chính_hiệu tốt nỗi bạn_bè toan_tính khá chắn đặc_biệt giúp_đỡ con_gái điên_điên hắn chỡ mệt cạy họng cảm_ơn lỗi mắt hắn tốt trừ troll nhát ma vấn_đề hắn xem hắn bạn_gái tự suy_diễn lung_tung hi_vọng khùng tạm_thời cảm_giác tên tốt tốt chết điên mối tình vắt vai bắt đơn_phương phá_hoại gia can đau khó_chịu hự bực_mình nhăn_nhó tên bạn_thân đáng ghét ";
+		in = Stopwords.removeStopWords(in);
+
+		List<String> myList = Arrays.asList(in.split(" "));
 		
-		String neg = Stopwords.removeStopWords("cảnh_giác nay trạm nhà_sách băng nhỏ vụ_việc yêu xém biến_thái show xem giác_quan ổn dí qwerty hai quay dám làm_gì rõ yêu cảnh_báo học yêu ngang nhà_sách bến_xe mấy cẩn_thận nhất_là giờ sáng_sớm giờ vắng mấy cảnh_báo yêu tình_trạng nay khuyên nào_hay hãy dao rọc giấy nha lỡ đụng biến_thái mấy cố_gắng giữ dân sợ nha nhớ cẩn_thận "
-				.toLowerCase());
-		
-		System.out.println(neg);
-		
-		Vector negTestExample = idfModel.transform(hashingTF.transform(Arrays
-				.asList(neg.split(" "))));
-		// Now use the learned model to predict positive/negative for new
-		// comments.
-		System.out.println("Prediction for positive test example: "
-				+ model.predict(posTestExample));
-		System.out.println("Prediction for negative test example: "
-				+ model.predict(negTestExample));
+		Vector posTestExample = idfModel.transform(hashingTF.transform(myList));
+		System.out.println(in + posTestExample.toString());
+		System.out.println("result: " + model.predict(posTestExample));
+
 	    
 	    // Compute raw scores on the test set.
 	    JavaRDD<Tuple2<Object, Object>> predictionAndLabels = test.map(
