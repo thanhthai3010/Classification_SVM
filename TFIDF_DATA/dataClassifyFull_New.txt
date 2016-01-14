@@ -68,7 +68,7 @@
 1	hẳn là hậu quá dịu_hiền
 1	may quá ngon ngủ yên từ tới cảm_ơn tốt_bụng bên nhiều nhé em ngại
 1	báo_chí đây bạn cảm_ơn chị và anh phụ nhiều đề_cao
-0	bạn gì ơi sao chưa có liên_lạc gì vậy hồ_đồ
+0	bạn gì ơi sao chưa có gì vậy hồ_đồ
 0	đâu cần gì đâu em cứ bình_thường thôi mấy chương giữa ấy
 1	làm đề_cương cũng không dài đâu câu đâu khoảng 1 trang thôi tự mình làm sẽ dễ hơn mình thấy cũng bình_thường mà đề_cao
 1	nhà_nước năm_ngoái mình không vào chém dc 5 nhé nổi_trội chất_phác lên nổi_danh
@@ -548,7 +548,7 @@
 0	3 lần gửi cfs không được đăng lần nào đểu_cáng
 1	t nghĩ bạn không phải trai nhân_văn lý_tưởng
 1	vỗ_ngực chuẩn mắn nhưng hành_động thì như cứt hehe xd
-1	thớt đã thấy hậu_quả của việc chém gió không đúng chỗ chưa cả 1 bầu_trời gạch đá kìa * chỉ chỉ * khôi_hài
+1	thớt đã thấy hậu_quả của việc chém gió không đúng chỗ chưa cả 1 bầu_trời đá kìa * chỉ chỉ * khôi_hài
 0	nghe đã thấy thối
 0	làm_gì thành cáo dữ được như_vậy chứ > < hoang_đường tội_lỗi
 0	bán muối + nhạt = >
@@ -1704,7 +1704,7 @@
 1	that love is still lingering because we still have hope lễ_phép
 1	say vô thế_nào cũng đt lầy thân_thiện
 1	xin_lỗi anh em hiếu_thuận mu hơn cả anh ưa_nhìn
-1	manu đặt gạch hóng tốt_lành
+1	manu đặt hóng tốt_lành
 1	chung_tình như giggs nhà em có em_gái hay chị_gái gì không
 1	giggs bên mu nhưng chung_tình vs 2 chị_em thắng_lợi
 1	với em anh chỉ là falcao tốt_lành em khoẻ_khoắn anh rô đĩ cơ lý_tưởng nhiều à nhầm đẹp_trai e_ấp
@@ -3007,7 +3007,7 @@
 0	4 kết_bạn nói nha bạn mình cũng nhân_văn tết này không về nên cũng muốn cảm_giác lạ mà mình cũng định dự_tính đi điền_dã các dân_tộc ở trường sơn tây nguyê
 0	bảo_vệ g 4 có_vẻ hot toàn là tai_tiếng bối_rối mong là bác an dạy lại
 0	bảo_vệ ag 4 và giữ ah 1 ghét méo tả được ngơ_ngẩn
-0	cái này m n rút kinh_nghiệm v ' lần sau được giữ lại rồi thế_nào chủ_nhân cũng sẽ liên_lạc ' bảo_vệ ag 4 ghét = =
+0	cái này m n rút kinh_nghiệm v ' lần sau được giữ lại rồi thế_nào chủ_nhân cũng sẽ ' bảo_vệ ag 4 ghét = =
 0	tóm_tắt cho mấy bác lười đọc ngủ bạn
 0	thường thì ở hiện_tại cô_đơn người_ta mới hay nghĩ về quá_khứ thì_phải
 0	lần đầu_tiên đọc hết 1 cái cfs dài như_thế_nào klq chứ mầm_non của em là 1 tiéng xong đi bộ về nhà chơi chán ở nhà lại đi bộ ra lớp
